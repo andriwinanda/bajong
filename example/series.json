@@ -1,0 +1,91 @@
+[ {
+    "_id": {
+      "$oid": "63e8ccb30413130284f9ab8a"
+    },
+    "type": "Sliding Door",
+    "availability": [
+      120,
+      80,
+      52
+    ],
+    "doorLeaves": [
+      2,
+      3,
+      4,
+      0,
+      1
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "63f3e7cc51a56f3d3b585670"
+    },
+    "type": "Sliding Window",
+    "availability": [
+      70
+    ],
+    "doorLeaves": [
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "63f3e81e51a56f3d3b585671"
+    },
+    "type": "Folding Door",
+    "availability": [
+      75,
+      42
+    ],
+    "doorLeaves": [
+      3,
+      4,
+      6,
+      8,
+      5,
+      10,
+      7,
+      1,
+      2
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "63f3e8b751a56f3d3b585672"
+    },
+    "type": "Casement Window",
+    "availability": [
+      100,
+      50,
+      45,
+      38
+    ],
+    "doorLeaves": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      0
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "63f3e93851a56f3d3b585673"
+    },
+    "type": "Swing Door",
+    "availability": [
+      50,
+      38,
+      40,
+      30
+    ],
+    "doorLeaves": [
+      1,
+      2
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[ {
+    "_id": {
+      "$oid": "63efbc2f1cfa8f2a14c4dde3"
+    },
+    "email": "nunu",
+    "password": "nunu",
+    "name": "Nunu",
+    "role": "ROLE_ADMIN"
+  },
+  {
+    "_id": {
+      "$oid": "63f30022ce41895e381a1e02"
+    },
+    "email": "admin",
+    "password": "admin",
+    "name": "Admin",
+    "role": "ROLE_ADMIN"
+  }
+]
