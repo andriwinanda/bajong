@@ -12,9 +12,9 @@ dotenv.config()
 const dataUri = new DataUri()
 
 cloudinary.config( {
-  cloud_name: process.env.CLOUD_CLOUD_NAME,
-  api_key: process.env.CLOUD_API_KEY,
-  api_secret: process.env.CLOUD_AUTHORIZATION
+  cloud_name: 'dhia7amjx',
+  api_key: '881578912472341',
+  api_secret: 'bmve9zgkRBL40qynjQNZdKOJico'
 } )
 const upload = multer()
 const routes = express.Router()
