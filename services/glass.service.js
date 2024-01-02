@@ -106,7 +106,7 @@ async function update ( req, res )
 
 async function deleteOne ( req, res )
 {
-  const id = req.query.idGlass
+  const id = req.params.id
   try
   {
     const locations = await LocationModel.find()

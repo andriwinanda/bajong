@@ -82,7 +82,7 @@ async function update ( req, res )
 
 async function deleteOne ( req, res )
 {
-  const id = req.query.idSeries
+  const id = req.params.id
   try
   {
     await SeriesModel.findByIdAndDelete( id )

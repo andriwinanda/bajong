@@ -8,6 +8,6 @@ routes.get( '/', findAll)
 routes.get( '/detail/:id', findOne )
 routes.get( '/details', getDetails )
 routes.put( '/:id', update )
-routes.delete( '/', deleteOne )
+routes.delete( '/:id', deleteOne )
 
 module.exports = routes

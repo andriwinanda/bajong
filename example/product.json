@@ -1,4 +1,5 @@
-[ {
+[
+  {
     "_id": {
       "$oid": "63f46e7751a56f3d3b585687"
     },
@@ -42,7 +43,8 @@
     "description": "2 Daun Hidup",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -75,7 +77,8 @@
     "description": "4 Daun (2fix + 2hidup)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -108,7 +111,8 @@
     "description": "4 Daun Hidup",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -141,7 +145,8 @@
     "description": "3 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -182,7 +187,8 @@
     "description": "3 Daun +1 Daun (3+1)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -219,7 +225,8 @@
     "description": "3 Daun + 3 Daun (3+3)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -256,7 +263,8 @@
     "description": "3 Daun + 5 Daun (3+5)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -293,7 +301,8 @@
     "description": "5 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -334,7 +343,8 @@
     "description": "5 Daun + 1 Daun (5+1)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -371,7 +381,8 @@
     "description": "5 Daun + 5 Daun (5+5)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -408,7 +419,8 @@
     "description": "7 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -449,7 +461,8 @@
     "description": "7 Daun + 1 Daun (7+1)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -486,7 +499,8 @@
     "description": "1 Daun (Full Kaca)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -515,7 +529,8 @@
     "description": "1 Daun (1/2 Kaca+1/2 Panel)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T/2"
       },
@@ -548,7 +563,8 @@
     "description": "1 Daun ( Full Panel)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "0"
       },
@@ -581,7 +597,8 @@
     "description": "1 Daun ( Full Kaca+ 2 Strip Tulang Daun Horizontal)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -614,7 +631,8 @@
     "description": "1 Daun (Full Kaca+2 TD H+1 TD V)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -647,7 +665,8 @@
     "description": "1 Kaca Mati",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -672,7 +691,8 @@
     "description": "1 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -701,7 +721,8 @@
     "description": "1 Daun + KM A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -738,7 +759,8 @@
     "description": "1 Daun + KM A + KM B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -775,7 +797,8 @@
     "description": "2 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -812,7 +835,8 @@
     "description": "2 Daun + KM A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -849,7 +873,8 @@
     "description": "2 Daun + KM A + KM B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -886,7 +911,8 @@
     "description": "3 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -919,7 +945,8 @@
     "description": "3 Daun + KM A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -956,7 +983,8 @@
     "description": "3 Daun + KM A + KM B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -993,7 +1021,8 @@
     "description": "4 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1026,7 +1055,8 @@
     "description": "4 Daun + 2 KM A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1063,7 +1093,8 @@
     "description": "4 Daun + KM A + KM B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1100,7 +1131,8 @@
     "description": "4 Daun + 2 KM A + 2 KM B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1133,7 +1165,8 @@
     "description": "5 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1166,7 +1199,8 @@
     "description": "5 Daun + 3 KM A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1203,7 +1237,8 @@
     "description": "6 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1236,7 +1271,8 @@
     "description": "6 Daun + 2 KM A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1273,7 +1309,8 @@
     "description": "6 Daun + 3 KM A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1310,7 +1347,8 @@
     "description": "1 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1339,7 +1377,8 @@
     "description": "2 Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1372,7 +1411,8 @@
     "description": "1 Daun (1 Daun + Tulang Daun)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1405,7 +1445,8 @@
     "description": "2 Daun + Tulang Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1442,7 +1483,8 @@
     "description": "1 Daun + 2 Strip TD H",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1475,7 +1517,8 @@
     "description": "2 Daun + 2 Strip TD Horizontal",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1512,7 +1555,8 @@
     "description": "1 Daun Hidup",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1541,7 +1585,8 @@
     "description": "2 Daun Hidup",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1574,7 +1619,8 @@
     "description": "1 Daun (1 TD V + 2 TD H)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1607,7 +1653,8 @@
     "description": "2 Daun Hidup (2 TD V + 4 TD H)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1644,7 +1691,8 @@
     "description": "1 Daun (2 TD H)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1677,7 +1725,8 @@
     "description": "2 Daun (4 TD H)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1714,7 +1763,8 @@
     "description": "1 daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1743,7 +1793,8 @@
     "description": "1 sash + fixed Sash",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1780,7 +1831,8 @@
     "description": "1 Sash + Fixed Sash A + B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1817,7 +1869,8 @@
     "description": "2 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1850,7 +1903,8 @@
     "description": "4 Sash + Fixed Glass A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1887,7 +1941,8 @@
     "description": "4 Sash + Fixed Glass A + B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1924,7 +1979,8 @@
     "description": "4 Sash + Fixed Glass 2 A + 2 B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1961,7 +2017,8 @@
     "description": "5 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -1994,7 +2051,8 @@
     "description": "5 Sash + Fixed Glass 3A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2031,7 +2089,8 @@
     "description": "6 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2064,7 +2123,8 @@
     "description": "6 Sash + Fixed Glass 2A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2101,7 +2161,8 @@
     "description": "6 Sash + Fixed Glass 2A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2138,7 +2199,8 @@
     "description": "6 Sash + Fixed Glass 3A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2175,7 +2237,8 @@
     "description": "Fixed Glass",
     "fixGlassTop": false,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2200,7 +2263,8 @@
     "description": "2 Sash + Fixed Glass A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2237,7 +2301,8 @@
     "description": "2 Sash + Fixed Glass A + B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2274,7 +2339,8 @@
     "description": "3 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2307,7 +2373,8 @@
     "description": "3 Sash + Fixed Glass A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2344,7 +2411,8 @@
     "description": "3 Sash + Fixed Glass A + B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2381,7 +2449,8 @@
     "description": "4 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2414,7 +2483,8 @@
     "description": "1 Sash + 1 Fixed Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2455,7 +2525,8 @@
     "description": "2 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2496,7 +2567,8 @@
     "description": "2 Sash + 1 Fixed Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2537,7 +2609,8 @@
     "description": "3 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2578,7 +2651,8 @@
     "description": "2 Sash + 2 Fixed Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2619,7 +2693,8 @@
     "description": "2 Daun (1 Fix + 1 Hidup)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2660,7 +2735,8 @@
     "description": "4 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2701,7 +2777,8 @@
     "description": "3 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2742,7 +2819,8 @@
     "description": "2 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2783,7 +2861,8 @@
     "description": "2 Sash + 2 Fixed Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2824,7 +2903,8 @@
     "description": " 1 Sash + 1 Fixed Sash + Fixed Galss 2A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2873,7 +2953,8 @@
     "description": "4 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2914,7 +2995,8 @@
     "description": "1 Sash + 1 Fixed Sash + Fixed Glass",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -2963,7 +3045,8 @@
     "description": "2 Sash + Fixed Glass + 2 A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3012,7 +3095,8 @@
     "description": "2 Sash + Fixed Glass",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3057,7 +3141,8 @@
     "description": "2 Sash + 2 Fixed Sash + Fixed Glass 4A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3106,7 +3191,8 @@
     "description": "2 Sash + 2 Fixed Sash + Fixed Glass 2A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3155,7 +3241,8 @@
     "description": "4 sash + Fixed Glass 4 A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3204,7 +3291,8 @@
     "description": "4 Sash + Fixed Glass 2A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3253,7 +3341,8 @@
     "description": "3 Sash ( 3+0 )",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3286,7 +3375,8 @@
     "description": "4 Sash ( 3+1 )",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3319,7 +3409,8 @@
     "description": "6 Sash ( 3+ 3)",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3352,7 +3443,8 @@
     "description": "8 Sash ( 5+ 3 )",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3385,7 +3477,8 @@
     "description": "5 Sash ( 5+0 )",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3418,7 +3511,8 @@
     "description": "6 Sash ( 5+1 )",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3451,7 +3545,8 @@
     "description": "10 Sash ( 5+5 )",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3484,7 +3579,8 @@
     "description": "7 Sash ( 7+0 )",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3517,7 +3613,8 @@
     "description": "8 Sash ( 7+1 )",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3546,7 +3643,8 @@
     "description": "1 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3579,7 +3677,8 @@
     "description": "2 Sash",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3612,7 +3711,8 @@
     "description": "1 Sash + 2 TD H + 1TD V",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3645,7 +3745,8 @@
     "description": "2 Sash + 2 TD H + 2 TD V",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3682,7 +3783,8 @@
     "description": "1 Sash + 2TD H",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3715,7 +3817,8 @@
     "description": "2 Sash + 2TD H",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3752,7 +3855,8 @@
     "description": "KACA MATI",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3777,7 +3881,8 @@
     "description": "1 DAUN",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3806,7 +3911,8 @@
     "description": "1DAUN + KACA MATI",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3843,7 +3949,8 @@
     "description": "1DAUN + 2KACA MATI",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3880,7 +3987,8 @@
     "description": "2DAUN ",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3913,7 +4021,8 @@
     "description": "2DAUN + KACA MATI",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3950,7 +4059,8 @@
     "description": "2DAUN + 2KACA MATI",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -3987,7 +4097,8 @@
     "description": "3Daun",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4020,7 +4131,8 @@
     "description": "3DAUN + KACA MATI A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4057,7 +4169,8 @@
     "description": "3DAUN + KACA MATI A + KACA MATI B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4094,7 +4207,8 @@
     "description": "4DAUN",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4127,7 +4241,8 @@
     "description": "4DAUN + KACA MATI A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4164,7 +4279,8 @@
     "description": "4DAUN + KACA MATI A + KACA MATI B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4201,7 +4317,8 @@
     "description": "4DAUN + 2 KM A + 2 KM B",
     "fixGlassTop": true,
     "fixGlassBottom": true,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4238,7 +4355,8 @@
     "description": "5DAUN ",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4271,7 +4389,8 @@
     "description": "5DAUN+ 3 KM A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4308,7 +4427,8 @@
     "description": "6 DAUN ",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4341,7 +4461,8 @@
     "description": "6 DAUN + 2 KM A ",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4378,7 +4499,8 @@
     "description": "6 DAUN + 3 KM A",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4415,7 +4537,8 @@
     "description": "1 DAUN",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4452,7 +4575,8 @@
     "description": "1 DAUN + KM",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4497,7 +4621,8 @@
     "description": "2 DAUN",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4538,7 +4663,8 @@
     "description": "2 DAUN + KM",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4583,7 +4709,8 @@
     "description": "3 DAUN",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4624,7 +4751,8 @@
     "description": "3 DAUN + 1 KM",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4669,7 +4797,8 @@
     "description": "3 DAUN + 3 KM",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4714,7 +4843,8 @@
     "description": "4 DAUN",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4755,7 +4885,8 @@
     "description": "4 DAUN + 1 KM",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4800,7 +4931,8 @@
     "description": "4 DAUN + 4 KM",
     "fixGlassTop": true,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4845,7 +4977,8 @@
     "description": "1 Daun Hidup",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "0.16+L*T"
       },
@@ -4874,7 +5007,7 @@
         "formula": "2*L+2*0.08+0.036+T+0.036+0.04"
       }
     ],
-    "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/pms-future/DELICA-1685763638806-WhatsApp Image 2023-06-03 at 10.40.15 AM.jpeg"
+    "imageUrl": "DELICA-1685763638806-WhatsApp Image 2023-06-03 at 10.40.15 AM.jpeg"
   },
   {
     "_id": {
@@ -4886,7 +5019,8 @@
     "description": "1 Daun Hidup",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4915,7 +5049,7 @@
         "formula": "T"
       }
     ],
-    "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/pms-future/DELICA-1685764434033-WhatsApp Image 2023-06-03 at 10.53.26 AM.jpeg"
+    "imageUrl": "DELICA-1685764434033-WhatsApp Image 2023-06-03 at 10.53.26 AM.jpeg"
   },
   {
     "_id": {
@@ -4927,7 +5061,8 @@
     "description": "2 Daun Hidup",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4952,7 +5087,7 @@
         "formula": "2*T"
       }
     ],
-    "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/pms-future/DELICA-1685764920721-WhatsApp Image 2023-06-03 at 11.01.38 AM.jpeg"
+    "imageUrl": "DELICA-1685764920721-WhatsApp Image 2023-06-03 at 11.01.38 AM.jpeg"
   },
   {
     "_id": {
@@ -4964,7 +5099,8 @@
     "description": "3 Daun Hidup",
     "fixGlassTop": false,
     "fixGlassBottom": false,
-    "material": [ {
+    "material": [
+      {
         "idMaterial": "Kaca",
         "formula": "L*T"
       },
@@ -4985,6 +5121,5576 @@
         "formula": "4*T"
       }
     ],
-    "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/pms-future/DELICA-1685765918331-WhatsApp Image 2023-06-03 at 10.45.40 AM.jpeg"
+    "imageUrl": "DELICA-1685765918331-WhatsApp Image 2023-06-03 at 10.45.40 AM.jpeg"
+  }
+]
+
+
+[
+  {
+    "_id": {
+      "$oid": "63f46e7751a56f3d3b585687"
+    },
+    "type": "Sliding Window",
+    "series": "70",
+    "doorLeaves": "2",
+    "description": "2 Daun (1fix+1hidup)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3de7d51a56f3d3b585634",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3de9b51a56f3d3b585635",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dead51a56f3d3b585636",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dee851a56f3d3b585637",
+        "formula": "2*T"
+      }
+    ],
+    "imageUrl": "image040.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4704a51a56f3d3b585688"
+    },
+    "type": "Sliding Window",
+    "series": "70",
+    "doorLeaves": "2",
+    "description": "2 Daun Hidup",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3de7d51a56f3d3b585634",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3de9b51a56f3d3b585635",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dead51a56f3d3b585636",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dee851a56f3d3b585637",
+        "formula": "2*T"
+      }
+    ],
+    "imageUrl": "image041.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f470ce51a56f3d3b585689"
+    },
+    "type": "Sliding Window",
+    "series": "70",
+    "doorLeaves": "4",
+    "description": "4 Daun (2fix + 2hidup)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3de7d51a56f3d3b585634",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3de9b51a56f3d3b585635",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dead51a56f3d3b585636",
+        "formula": "2*L+8*T"
+      },
+      {
+        "idMaterial": "63f3dee851a56f3d3b585637",
+        "formula": "4*T"
+      }
+    ],
+    "imageUrl": "image042.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4715251a56f3d3b58568a"
+    },
+    "type": "Sliding Window",
+    "series": "70",
+    "doorLeaves": "4",
+    "description": "4 Daun Hidup",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3de7d51a56f3d3b585634",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3de9b51a56f3d3b585635",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dead51a56f3d3b585636",
+        "formula": "2*L+8*T"
+      },
+      {
+        "idMaterial": "63f3dee851a56f3d3b585637",
+        "formula": "4*T"
+      }
+    ],
+    "imageUrl": "image043.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f475e951a56f3d3b58568d"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "3",
+    "description": "3 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+6*T"
+      },
+      {
+        "idMaterial": "63f3e00851a56f3d3b58563c",
+        "formula": "T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "1*T"
+      }
+    ],
+    "imageUrl": "image046.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4775351a56f3d3b58568e"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "4",
+    "description": "3 Daun +1 Daun (3+1)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+8*T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "3*T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "2*T"
+      }
+    ],
+    "imageUrl": "image047.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4874351a56f3d3b585691"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "6",
+    "description": "3 Daun + 3 Daun (3+3)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+12*T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "5*T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "2*T"
+      }
+    ],
+    "imageUrl": "image049.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f487f251a56f3d3b585692"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "8",
+    "description": "3 Daun + 5 Daun (3+5)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "8"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+16*T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "7*T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "2*T"
+      }
+    ],
+    "imageUrl": "image051.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f488f951a56f3d3b585693"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "5",
+    "description": "5 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "5"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+10*T"
+      },
+      {
+        "idMaterial": "63f3e00851a56f3d3b58563c",
+        "formula": "T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "1*T"
+      }
+    ],
+    "imageUrl": "image054.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4899151a56f3d3b585694"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "6",
+    "description": "5 Daun + 1 Daun (5+1)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+12*T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "5*T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "2*T"
+      }
+    ],
+    "imageUrl": "image055.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f48a7951a56f3d3b585695"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "10",
+    "description": "5 Daun + 5 Daun (5+5)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "10"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+20*T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "9*T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "2*T"
+      }
+    ],
+    "imageUrl": "image058.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f48b0951a56f3d3b585696"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "7",
+    "description": "7 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "7"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+14*T"
+      },
+      {
+        "idMaterial": "63f3e00851a56f3d3b58563c",
+        "formula": "T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "6*T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "1*T"
+      }
+    ],
+    "imageUrl": "image059.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f48b7e51a56f3d3b585697"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "8",
+    "description": "7 Daun + 1 Daun (7+1)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "8"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+16*T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "7*T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "2*T"
+      }
+    ],
+    "imageUrl": "image062.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f48e7a51a56f3d3b585699"
+    },
+    "type": "Swing Door",
+    "series": "30",
+    "doorLeaves": "1",
+    "description": "1 Daun (Full Kaca)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e6ee51a56f3d3b58566b",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e6fe51a56f3d3b58566c",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e70f51a56f3d3b58566d",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image217.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4904751a56f3d3b58569b"
+    },
+    "type": "Swing Door",
+    "series": "30",
+    "doorLeaves": "1",
+    "description": "1 Daun (1/2 Kaca+1/2 Panel)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T/2"
+      },
+      {
+        "idMaterial": "63f3e6ee51a56f3d3b58566b",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e6fe51a56f3d3b58566c",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e70f51a56f3d3b58566d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e72f51a56f3d3b58566f",
+        "formula": "L*T/2"
+      },
+      {
+        "idMaterial": "63f3e72251a56f3d3b58566e",
+        "formula": "L"
+      }
+    ],
+    "imageUrl": "image219.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f490f251a56f3d3b58569c"
+    },
+    "type": "Swing Door",
+    "series": "30",
+    "doorLeaves": "1",
+    "description": "1 Daun ( Full Panel)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "0"
+      },
+      {
+        "idMaterial": "63f3e6ee51a56f3d3b58566b",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e6fe51a56f3d3b58566c",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e70f51a56f3d3b58566d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e72f51a56f3d3b58566f",
+        "formula": "L*T"
+      }
+    ],
+    "imageUrl": "image221.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f493c651a56f3d3b58569d"
+    },
+    "type": "Swing Door",
+    "series": "30",
+    "doorLeaves": "1",
+    "description": "1 Daun ( Full Kaca+ 2 Strip Tulang Daun Horizontal)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e6ee51a56f3d3b58566b",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e6fe51a56f3d3b58566c",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e70f51a56f3d3b58566d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e72251a56f3d3b58566e",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "image223.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4948351a56f3d3b58569e"
+    },
+    "type": "Swing Door",
+    "series": "30",
+    "doorLeaves": "1",
+    "description": "1 Daun (Full Kaca+2 TD H+1 TD V)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e6ee51a56f3d3b58566b",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e6fe51a56f3d3b58566c",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e70f51a56f3d3b58566d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e72251a56f3d3b58566e",
+        "formula": "2*L+T"
+      }
+    ],
+    "imageUrl": "image225.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f497bd51a56f3d3b58569f"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "1",
+    "description": "1 Kaca Mati",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image133.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4988251a56f3d3b5856a0"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "1",
+    "description": "1 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image135.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4997f51a56f3d3b5856a1"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "1",
+    "description": "1 Daun + KM A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "L"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image137.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f49a5451a56f3d3b5856a2"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "1",
+    "description": "1 Daun + KM A + KM B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+2*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "2*L+2*A+2*L+2*B"
+      }
+    ],
+    "imageUrl": "image139.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f49ad451a56f3d3b5856a3"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "2",
+    "description": "2 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "T"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "",
+        "formula": null
+      }
+    ],
+    "imageUrl": "image141.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f49d6e51a56f3d3b5856a4"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "2",
+    "description": "2 Daun + KM A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "L+T-A"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image143.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f49e0951a56f3d3b5856a5"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "2",
+    "description": "2 Daun + KM A + KM B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "2*L+T-A-B"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+4*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "2*L+2*A+2*L+2*B"
+      }
+    ],
+    "imageUrl": "image145.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f49e9b51a56f3d3b5856a6"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "3",
+    "description": "3 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+6*T"
+      }
+    ],
+    "imageUrl": "image147.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f49f3151a56f3d3b5856a7"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "3",
+    "description": "3 Daun + KM A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "L+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+6*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image149.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4a00051a56f3d3b5856a8"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "3",
+    "description": "3 Daun + KM A + KM B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "2*L+2*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+6*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "4*L+2*A+2*B"
+      }
+    ],
+    "imageUrl": "image151.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4a0df51a56f3d3b5856a9"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "4",
+    "description": "4 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "3*T"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+8*T"
+      }
+    ],
+    "imageUrl": "image153.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4a2dd51a56f3d3b5856aa"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "4",
+    "description": "4 Daun + 2 KM A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "L+T+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image155.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4a39951a56f3d3b5856ab"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "4",
+    "description": "4 Daun + KM A + KM B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "2*L+3*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+8*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "4*L+2*A+2*B"
+      }
+    ],
+    "imageUrl": "image157.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4a4a951a56f3d3b5856ac"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "4",
+    "description": "4 Daun + 2 KM A + 2 KM B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "2*L+T+2*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "4*L+4*A+4*B"
+      }
+    ],
+    "imageUrl": "image159.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4a50a51a56f3d3b5856ad"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "5",
+    "description": "5 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+10*T"
+      }
+    ],
+    "imageUrl": "image161.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4a5d851a56f3d3b5856ae"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "5",
+    "description": "5 Daun + 3 KM A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "L+2*T+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+10*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "2*L+6*A"
+      }
+    ],
+    "imageUrl": "image163.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4a6e251a56f3d3b5856b0"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "6",
+    "description": "6 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "5*T"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+12*T"
+      }
+    ],
+    "imageUrl": "image165.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4a75f51a56f3d3b5856b1"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "6",
+    "description": "6 Daun + 2 KM A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "L+T+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+12*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image167.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f4a81051a56f3d3b5856b2"
+    },
+    "type": "Casement Window",
+    "series": "38",
+    "doorLeaves": "6",
+    "description": "6 Daun + 3 KM A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e4b151a56f3d3b58565b",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e4dc51a56f3d3b58565c",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e4f751a56f3d3b58565d",
+        "formula": "L+2*T+3*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e50851a56f3d3b58565e",
+        "formula": "2*L+12*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e52f51a56f3d3b585660",
+        "formula": "2*L+6*A"
+      }
+    ],
+    "imageUrl": "image169.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5a91751a56f3d3b5856c4"
+    },
+    "type": "Swing Door",
+    "series": "38",
+    "doorLeaves": "1",
+    "description": "1 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e57051a56f3d3b585661",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e59051a56f3d3b585662",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e5aa51a56f3d3b585663",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image121.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5a97c51a56f3d3b5856c5"
+    },
+    "type": "Swing Door",
+    "series": "38",
+    "doorLeaves": "2",
+    "description": "2 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e57051a56f3d3b585661",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e59051a56f3d3b585662",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e5aa51a56f3d3b585663",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e5c151a56f3d3b585664",
+        "formula": "1*T"
+      }
+    ],
+    "imageUrl": "image123.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5a9f451a56f3d3b5856c6"
+    },
+    "type": "Swing Door",
+    "series": "38",
+    "doorLeaves": "1",
+    "description": "1 Daun (1 Daun + Tulang Daun)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e57051a56f3d3b585661",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e59051a56f3d3b585662",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e5aa51a56f3d3b585663",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e5f051a56f3d3b585665",
+        "formula": "2*L+T"
+      }
+    ],
+    "imageUrl": "image125.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5ab6151a56f3d3b5856c7"
+    },
+    "type": "Swing Door",
+    "series": "38",
+    "doorLeaves": "2",
+    "description": "2 Daun + Tulang Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e57051a56f3d3b585661",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e59051a56f3d3b585662",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e5aa51a56f3d3b585663",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e5c151a56f3d3b585664",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "63f3e51d51a56f3d3b58565f",
+        "formula": "2*T+2*L"
+      }
+    ],
+    "imageUrl": "image127.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5abe251a56f3d3b5856c8"
+    },
+    "type": "Swing Door",
+    "series": "38",
+    "doorLeaves": "1",
+    "description": "1 Daun + 2 Strip TD H",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e57051a56f3d3b585661",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e59051a56f3d3b585662",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e5aa51a56f3d3b585663",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e51d51a56f3d3b58565f",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "image129.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5acf251a56f3d3b5856c9"
+    },
+    "type": "Swing Door",
+    "series": "38",
+    "doorLeaves": "2",
+    "description": "2 Daun + 2 Strip TD Horizontal",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e57051a56f3d3b585661",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e59051a56f3d3b585662",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e5aa51a56f3d3b585663",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e5c151a56f3d3b585664",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "63f3e5f051a56f3d3b585665",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "image131.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5bf1e51a56f3d3b5856cf"
+    },
+    "type": "Swing Door",
+    "series": "50",
+    "doorLeaves": "1",
+    "description": "1 Daun Hidup",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e39f51a56f3d3b585650",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e3ae51a56f3d3b585651",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e3c151a56f3d3b585652",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image121.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5bfac51a56f3d3b5856d0"
+    },
+    "type": "Swing Door",
+    "series": "50",
+    "doorLeaves": "2",
+    "description": "2 Daun Hidup",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e39f51a56f3d3b585650",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e3ae51a56f3d3b585651",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e3c151a56f3d3b585652",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e3d451a56f3d3b585653",
+        "formula": "1*T"
+      }
+    ],
+    "imageUrl": "image123.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5c1ba51a56f3d3b5856d6"
+    },
+    "type": "Swing Door",
+    "series": "50",
+    "doorLeaves": "1",
+    "description": "1 Daun (1 TD V + 2 TD H)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e39f51a56f3d3b585650",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e3ae51a56f3d3b585651",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e3c151a56f3d3b585652",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e3e351a56f3d3b585654",
+        "formula": "2*L+T"
+      }
+    ],
+    "imageUrl": "image125.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5c25851a56f3d3b5856d7"
+    },
+    "type": "Swing Door",
+    "series": "50",
+    "doorLeaves": "2",
+    "description": "2 Daun Hidup (2 TD V + 4 TD H)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e39f51a56f3d3b585650",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e3ae51a56f3d3b585651",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e3c151a56f3d3b585652",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e3d451a56f3d3b585653",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "63f3e3e351a56f3d3b585654",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image128.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5c33951a56f3d3b5856d8"
+    },
+    "type": "Swing Door",
+    "series": "50",
+    "doorLeaves": "1",
+    "description": "1 Daun (2 TD H)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e39f51a56f3d3b585650",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e3ae51a56f3d3b585651",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e3c151a56f3d3b585652",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e3e351a56f3d3b585654",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "image129.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5c40b51a56f3d3b5856d9"
+    },
+    "type": "Swing Door",
+    "series": "50",
+    "doorLeaves": "1",
+    "description": "2 Daun (4 TD H)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e39f51a56f3d3b585650",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e3ae51a56f3d3b585651",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e3c151a56f3d3b585652",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e3d451a56f3d3b585653",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "63f3e3e351a56f3d3b585654",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "image131.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5c66c51a56f3d3b5856da"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "1",
+    "description": "1 daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image085.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5c74e51a56f3d3b5856dc"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "1",
+    "description": "1 sash + fixed Sash",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "1*L"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image087.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5c8a151a56f3d3b5856dd"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "1",
+    "description": "1 Sash + Fixed Sash A + B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+2*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+2*A+2*L+2*B"
+      }
+    ],
+    "imageUrl": "image089.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5c96c51a56f3d3b5856de"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "2",
+    "description": "2 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+4*T"
+      }
+    ],
+    "imageUrl": "image091.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5caa351a56f3d3b5856df"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "4",
+    "description": "4 Sash + Fixed Glass A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "L+T+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image103.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5cbf651a56f3d3b5856e0"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "4",
+    "description": "4 Sash + Fixed Glass A + B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "2*L+3*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+8*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "4*L+2*A+2*B"
+      }
+    ],
+    "imageUrl": "image107.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5cddd51a56f3d3b5856e1"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "4",
+    "description": "4 Sash + Fixed Glass 2 A + 2 B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "2*L+T+2*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+8*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "4*L+4*A+4*B"
+      }
+    ],
+    "imageUrl": "image110.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5ce6b51a56f3d3b5856e2"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "5",
+    "description": "5 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "5"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+10*T"
+      }
+    ],
+    "imageUrl": "image111.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5cf4d51a56f3d3b5856e3"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "5",
+    "description": "5 Sash + Fixed Glass 3A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "5"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "L+2*T+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+10*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+6*A"
+      }
+    ],
+    "imageUrl": "image113.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5cfe451a56f3d3b5856e4"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "6",
+    "description": "6 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "5*T"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+12*T"
+      }
+    ],
+    "imageUrl": "image115.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5d10f51a56f3d3b5856e6"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "6",
+    "description": "6 Sash + Fixed Glass 2A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "L+T+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+12*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image119.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5d11a51a56f3d3b5856e7"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "6",
+    "description": "6 Sash + Fixed Glass 2A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "L+T+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+12*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image117.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5d1ca51a56f3d3b5856e8"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "6",
+    "description": "6 Sash + Fixed Glass 3A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "L+2*T+3*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+12*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+6*A"
+      }
+    ],
+    "imageUrl": "DELICA-1700901622189-Untitled.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5d26551a56f3d3b5856eb"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "0",
+    "description": "Fixed Glass",
+    "fixGlassTop": false,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image083.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5d46951a56f3d3b5856ef"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "2",
+    "description": "2 Sash + Fixed Glass A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "L+T-A"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image094.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5d63a51a56f3d3b5856f1"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "2",
+    "description": "2 Sash + Fixed Glass A + B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "2*L+T-A-B"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+4*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+2*A+2*L+2*B"
+      }
+    ],
+    "imageUrl": "image096.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5d6d051a56f3d3b5856f2"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "3",
+    "description": "3 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+6*T"
+      }
+    ],
+    "imageUrl": "image098.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5d81351a56f3d3b5856f8"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "3",
+    "description": "3 Sash + Fixed Glass A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "L+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+6*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image100.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5d8f151a56f3d3b5856f9"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "3",
+    "description": "3 Sash + Fixed Glass A + B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "2*L+2*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+6*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e30151a56f3d3b58564f",
+        "formula": "4*L+2*A+2*B"
+      }
+    ],
+    "imageUrl": "image102.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5d9a051a56f3d3b5856fa"
+    },
+    "type": "Casement Window",
+    "series": "50",
+    "doorLeaves": "4",
+    "description": "4 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e28251a56f3d3b58564a",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e29851a56f3d3b58564b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e2b251a56f3d3b58564c",
+        "formula": "3*T"
+      },
+      {
+        "idMaterial": "63f3e2cd51a56f3d3b58564d",
+        "formula": "2*L+8*T"
+      }
+    ],
+    "imageUrl": "image104.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5e2db51a56f3d3b5856fb"
+    },
+    "type": "Sliding Door",
+    "series": "120",
+    "doorLeaves": "2",
+    "description": "1 Sash + 1 Fixed Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3d9c651a56f3d3b585624",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3dab451a56f3d3b585625",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3db8d51a56f3d3b585627",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dbb351a56f3d3b585628",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "1*L"
+      }
+    ],
+    "imageUrl": "image001.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5e40551a56f3d3b585737"
+    },
+    "type": "Sliding Door",
+    "series": "120",
+    "doorLeaves": "2",
+    "description": "2 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3d9c651a56f3d3b585624",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3dab451a56f3d3b585625",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3db8d51a56f3d3b585627",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dbb351a56f3d3b585628",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "image003.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5e4bb51a56f3d3b585738"
+    },
+    "type": "Sliding Door",
+    "series": "120",
+    "doorLeaves": "3",
+    "description": "2 Sash + 1 Fixed Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3d9c651a56f3d3b585624",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3db6a51a56f3d3b585626",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3db8d51a56f3d3b585627",
+        "formula": "2*L+6*T"
+      },
+      {
+        "idMaterial": "63f3dbb351a56f3d3b585628",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "6*L+6*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "image005.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5e53b51a56f3d3b585739"
+    },
+    "type": "Sliding Door",
+    "series": "120",
+    "doorLeaves": "3",
+    "description": "3 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3d9c651a56f3d3b585624",
+        "formula": "2.5"
+      },
+      {
+        "idMaterial": "63f3db6a51a56f3d3b585626",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3db8d51a56f3d3b585627",
+        "formula": "2*L+6*T"
+      },
+      {
+        "idMaterial": "63f3dbb351a56f3d3b585628",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "6*L+6*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "3*L"
+      }
+    ],
+    "imageUrl": "image007.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5e6bb51a56f3d3b58573a"
+    },
+    "type": "Sliding Door",
+    "series": "120",
+    "doorLeaves": "4",
+    "description": "2 Sash + 2 Fixed Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3d9c651a56f3d3b585624",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3dab451a56f3d3b585625",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3db8d51a56f3d3b585627",
+        "formula": "2*L+8*T"
+      },
+      {
+        "idMaterial": "63f3dbb351a56f3d3b585628",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "1*L"
+      }
+    ],
+    "imageUrl": "image009.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5e92f51a56f3d3b58573b"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "2",
+    "description": "2 Daun (1 Fix + 1 Hidup)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "1*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*T"
+      }
+    ],
+    "imageUrl": "image013.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5e93251a56f3d3b58573c"
+    },
+    "type": "Sliding Door",
+    "series": "120",
+    "doorLeaves": "4",
+    "description": "4 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3d9c651a56f3d3b585624",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3dab451a56f3d3b585625",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3db8d51a56f3d3b585627",
+        "formula": "2*L+8*T"
+      },
+      {
+        "idMaterial": "63f3dbb351a56f3d3b585628",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "image011.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5ea2051a56f3d3b585777"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "3",
+    "description": "3 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "2.5"
+      },
+      {
+        "idMaterial": "63f3dd3751a56f3d3b58562e",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+6*T"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "3*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "6*L+6*T"
+      }
+    ],
+    "imageUrl": "image015.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5eac751a56f3d3b585778"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "2",
+    "description": "2 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*T"
+      }
+    ],
+    "imageUrl": "image017.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5eb3451a56f3d3b585779"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "4",
+    "description": "2 Sash + 2 Fixed Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+8*T"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "1*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*T"
+      }
+    ],
+    "imageUrl": "image019.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5ebfc51a56f3d3b58577a"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "2",
+    "description": " 1 Sash + 1 Fixed Sash + Fixed Galss 2A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "1*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd8251a56f3d3b585631",
+        "formula": "L+A"
+      },
+      {
+        "idMaterial": "63f3de4751a56f3d3b585633",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image023.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5ec7351a56f3d3b58577b"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "4",
+    "description": "4 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+8*T"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*T"
+      }
+    ],
+    "imageUrl": "image022.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5f82351a56f3d3b585781"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "2",
+    "description": "1 Sash + 1 Fixed Sash + Fixed Glass",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "1*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd8251a56f3d3b585631",
+        "formula": "1*L"
+      },
+      {
+        "idMaterial": "63f3de4751a56f3d3b585633",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image026.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5f91e51a56f3d3b585782"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "2",
+    "description": "2 Sash + Fixed Glass + 2 A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd8251a56f3d3b585631",
+        "formula": "L+A"
+      },
+      {
+        "idMaterial": "63f3de4751a56f3d3b585633",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image027.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5fa0451a56f3d3b585783"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "2",
+    "description": "2 Sash + Fixed Glass",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "63f3dd8251a56f3d3b585631",
+        "formula": "1*L"
+      },
+      {
+        "idMaterial": "63f3de4751a56f3d3b585633",
+        "formula": "2*L+2*A"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*(T-A)"
+      }
+    ],
+    "imageUrl": "image029.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5faef51a56f3d3b585784"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "4",
+    "description": "2 Sash + 2 Fixed Sash + Fixed Glass 4A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "1*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd8251a56f3d3b585631",
+        "formula": "L+3*A"
+      },
+      {
+        "idMaterial": "63f3de4751a56f3d3b585633",
+        "formula": "2*L+8*A"
+      }
+    ],
+    "imageUrl": "image032.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5fbcc51a56f3d3b585785"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "4",
+    "description": "2 Sash + 2 Fixed Sash + Fixed Glass 2A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "1*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd8251a56f3d3b585631",
+        "formula": "L+A"
+      },
+      {
+        "idMaterial": "63f3de4751a56f3d3b585633",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image034.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5fc8e51a56f3d3b585786"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "4",
+    "description": "4 sash + Fixed Glass 4 A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd8251a56f3d3b585631",
+        "formula": "L+3*A"
+      },
+      {
+        "idMaterial": "63f3de4751a56f3d3b585633",
+        "formula": "2*L+8*A"
+      }
+    ],
+    "imageUrl": "image036.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f5fd1c51a56f3d3b585787"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "4",
+    "description": "4 Sash + Fixed Glass 2A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "4*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3dd8251a56f3d3b585631",
+        "formula": "L+A"
+      },
+      {
+        "idMaterial": "63f3de4751a56f3d3b585633",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image038.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6229151a56f3d3b5857b0"
+    },
+    "type": "Folding Door",
+    "series": "42",
+    "doorLeaves": "3",
+    "description": "3 Sash ( 3+0 )",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f6207b51a56f3d3b5857ae",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3e0fd51a56f3d3b585640",
+        "formula": "2*L+6*T"
+      },
+      {
+        "idMaterial": "63f3e12651a56f3d3b585642",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "63f6257d51a56f3d3b5857b7",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image045.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6234f51a56f3d3b5857b1"
+    },
+    "type": "Folding Door",
+    "series": "42",
+    "doorLeaves": "4",
+    "description": "4 Sash ( 3+1 )",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f6207b51a56f3d3b5857ae",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e0fd51a56f3d3b585640",
+        "formula": "2*L+8*T"
+      },
+      {
+        "idMaterial": "63f3e12651a56f3d3b585642",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f6257d51a56f3d3b5857b7",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image047.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f623c651a56f3d3b5857b2"
+    },
+    "type": "Folding Door",
+    "series": "42",
+    "doorLeaves": "6",
+    "description": "6 Sash ( 3+ 3)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f6207b51a56f3d3b5857ae",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e0fd51a56f3d3b585640",
+        "formula": "2*L+12*T"
+      },
+      {
+        "idMaterial": "63f3e12651a56f3d3b585642",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f6257d51a56f3d3b5857b7",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image049.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6242e51a56f3d3b5857b3"
+    },
+    "type": "Folding Door",
+    "series": "42",
+    "doorLeaves": "8",
+    "description": "8 Sash ( 5+ 3 )",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f6207b51a56f3d3b5857ae",
+        "formula": "8"
+      },
+      {
+        "idMaterial": "63f3e0fd51a56f3d3b585640",
+        "formula": "2*L+16*T"
+      },
+      {
+        "idMaterial": "63f3e12651a56f3d3b585642",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f6257d51a56f3d3b5857b7",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image051.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6247d51a56f3d3b5857b4"
+    },
+    "type": "Folding Door",
+    "series": "42",
+    "doorLeaves": "5",
+    "description": "5 Sash ( 5+0 )",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f6207b51a56f3d3b5857ae",
+        "formula": "5"
+      },
+      {
+        "idMaterial": "63f3e0fd51a56f3d3b585640",
+        "formula": "2*L+10*T"
+      },
+      {
+        "idMaterial": "63f3e12651a56f3d3b585642",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "63f6257d51a56f3d3b5857b7",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image053.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f624f951a56f3d3b5857b5"
+    },
+    "type": "Folding Door",
+    "series": "42",
+    "doorLeaves": "6",
+    "description": "6 Sash ( 5+1 )",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f6207b51a56f3d3b5857ae",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e0fd51a56f3d3b585640",
+        "formula": "2*L+12*T"
+      },
+      {
+        "idMaterial": "63f3e12651a56f3d3b585642",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f6257d51a56f3d3b5857b7",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image055.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6256c51a56f3d3b5857b6"
+    },
+    "type": "Folding Door",
+    "series": "42",
+    "doorLeaves": "10",
+    "description": "10 Sash ( 5+5 )",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f6207b51a56f3d3b5857ae",
+        "formula": "10"
+      },
+      {
+        "idMaterial": "63f3e0fd51a56f3d3b585640",
+        "formula": "2*L+20*T"
+      },
+      {
+        "idMaterial": "63f3e12651a56f3d3b585642",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f6257d51a56f3d3b5857b7",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image057.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f625cb51a56f3d3b5857b8"
+    },
+    "type": "Folding Door",
+    "series": "42",
+    "doorLeaves": "7",
+    "description": "7 Sash ( 7+0 )",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f6207b51a56f3d3b5857ae",
+        "formula": "7"
+      },
+      {
+        "idMaterial": "63f3e0fd51a56f3d3b585640",
+        "formula": "2*L+14*T"
+      },
+      {
+        "idMaterial": "63f3e12651a56f3d3b585642",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "63f6257d51a56f3d3b5857b7",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image059.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6261551a56f3d3b5857b9"
+    },
+    "type": "Folding Door",
+    "series": "42",
+    "doorLeaves": "8",
+    "description": "8 Sash ( 7+1 )",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e0fd51a56f3d3b585640",
+        "formula": "2*L+16*T"
+      },
+      {
+        "idMaterial": "63f3e12651a56f3d3b585642",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f6257d51a56f3d3b5857b7",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image061.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f629d651a56f3d3b5857ba"
+    },
+    "type": "Swing Door",
+    "series": "40",
+    "doorLeaves": "1",
+    "description": "1 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e65d51a56f3d3b585666",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e66f51a56f3d3b585667",
+        "formula": "L*+2*T"
+      },
+      {
+        "idMaterial": "63f3e68251a56f3d3b585668",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "",
+        "formula": null
+      }
+    ],
+    "imageUrl": "image121.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f62b9451a56f3d3b5857bb"
+    },
+    "type": "Swing Door",
+    "series": "40",
+    "doorLeaves": "2",
+    "description": "2 Sash",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e65d51a56f3d3b585666",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e66f51a56f3d3b585667",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e68251a56f3d3b585668",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e6a651a56f3d3b585669",
+        "formula": "1*T"
+      }
+    ],
+    "imageUrl": "image123.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f62c3251a56f3d3b5857bc"
+    },
+    "type": "Swing Door",
+    "series": "40",
+    "doorLeaves": "1",
+    "description": "1 Sash + 2 TD H + 1TD V",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e65d51a56f3d3b585666",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e66f51a56f3d3b585667",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e68251a56f3d3b585668",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e6c351a56f3d3b58566a",
+        "formula": "2*L+T"
+      }
+    ],
+    "imageUrl": "image125.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f62cae51a56f3d3b5857bd"
+    },
+    "type": "Swing Door",
+    "series": "40",
+    "doorLeaves": "2",
+    "description": "2 Sash + 2 TD H + 2 TD V",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e65d51a56f3d3b585666",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e66f51a56f3d3b585667",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e68251a56f3d3b585668",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e6a651a56f3d3b585669",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "63f3e6c351a56f3d3b58566a",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image127.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f62cf551a56f3d3b5857bf"
+    },
+    "type": "Swing Door",
+    "series": "40",
+    "doorLeaves": "1",
+    "description": "1 Sash + 2TD H",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e65d51a56f3d3b585666",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e66f51a56f3d3b585667",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e68251a56f3d3b585668",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e6c351a56f3d3b58566a",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "image129.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f62d5b51a56f3d3b5857c8"
+    },
+    "type": "Swing Door",
+    "series": "40",
+    "doorLeaves": "2",
+    "description": "2 Sash + 2TD H",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e65d51a56f3d3b585666",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e66f51a56f3d3b585667",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e68251a56f3d3b585668",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e6a651a56f3d3b585669",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "63f3e6c351a56f3d3b58566a",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "image131.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6375d51a56f3d3b5857dc"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "0",
+    "description": "KACA MATI",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image084.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6375d51a56f3d3b5857dd"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "1",
+    "description": "1 DAUN",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "image086.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6375e51a56f3d3b5857de"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "1",
+    "description": "1DAUN + KACA MATI",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "L"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image088.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6375f51a56f3d3b5857df"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "1",
+    "description": "1DAUN + 2KACA MATI",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+2*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "2*L+2*A + 2*L+2*B"
+      }
+    ],
+    "imageUrl": "image090.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6375f51a56f3d3b5857e0"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "2",
+    "description": "2DAUN ",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "T"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+4*T"
+      }
+    ],
+    "imageUrl": "image092.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376051a56f3d3b5857e1"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "2",
+    "description": "2DAUN + KACA MATI",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "L+T-A"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image094.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376051a56f3d3b5857e2"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "2",
+    "description": "2DAUN + 2KACA MATI",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "2*L+T-A-B"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+4*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "2*L+2*A+2*L+2*B"
+      }
+    ],
+    "imageUrl": "image096.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376151a56f3d3b5857e3"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "3",
+    "description": "3Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+6*T"
+      }
+    ],
+    "imageUrl": "image098.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376251a56f3d3b5857e4"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "3",
+    "description": "3DAUN + KACA MATI A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "L+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+6*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image100.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376251a56f3d3b5857e5"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "3",
+    "description": "3DAUN + KACA MATI A + KACA MATI B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "2*L+2*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+6*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "4*L+2*A+2*B"
+      }
+    ],
+    "imageUrl": "image102.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376351a56f3d3b5857e6"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "4",
+    "description": "4DAUN",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "3*T"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+8*T"
+      }
+    ],
+    "imageUrl": "image104.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376451a56f3d3b5857e7"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "4",
+    "description": "4DAUN + KACA MATI A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "L+T+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image106.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376451a56f3d3b5857e8"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "4",
+    "description": "4DAUN + KACA MATI A + KACA MATI B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "2*L+3*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+8*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "4*L+2*A+2*B"
+      }
+    ],
+    "imageUrl": "image108.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376551a56f3d3b5857e9"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "4",
+    "description": "4DAUN + 2 KM A + 2 KM B",
+    "fixGlassTop": true,
+    "fixGlassBottom": true,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "2*L+T+2*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+8*(T-A-B)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "4*L+4*A+4*B"
+      }
+    ],
+    "imageUrl": "image110.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376551a56f3d3b5857ea"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "5",
+    "description": "5DAUN ",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "5"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+10*T"
+      }
+    ],
+    "imageUrl": "image112.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376651a56f3d3b5857eb"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "5",
+    "description": "5DAUN+ 3 KM A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "5"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "L+2*T+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+10*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "2*L+6*A"
+      }
+    ],
+    "imageUrl": "image114.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376751a56f3d3b5857ec"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "6",
+    "description": "6 DAUN ",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "5*T"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+12*T"
+      }
+    ],
+    "imageUrl": "image116.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376751a56f3d3b5857ed"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "6",
+    "description": "6 DAUN + 2 KM A ",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "L+T+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+12*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image118.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6376851a56f3d3b5857ee"
+    },
+    "type": "Casement Window",
+    "series": "45",
+    "doorLeaves": "6",
+    "description": "6 DAUN + 3 KM A",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e40d51a56f3d3b585655",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e42751a56f3d3b585656",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e44051a56f3d3b585657",
+        "formula": "L+2*T+3*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e45351a56f3d3b585658",
+        "formula": "2*L+12*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e47651a56f3d3b58565a",
+        "formula": "2*L+6*A"
+      }
+    ],
+    "imageUrl": "image120.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6427351a56f3d3b5857ef"
+    },
+    "type": "Casement Window",
+    "series": "100",
+    "doorLeaves": "1",
+    "description": "1 DAUN",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e16551a56f3d3b585643",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e17851a56f3d3b585644",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e1ce51a56f3d3b585646",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e1de51a56f3d3b585647",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e1ef51a56f3d3b585648",
+        "formula": "L*T"
+      }
+    ],
+    "imageUrl": "image063.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6427351a56f3d3b5857f0"
+    },
+    "type": "Casement Window",
+    "series": "100",
+    "doorLeaves": "1",
+    "description": "1 DAUN + KM",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e16551a56f3d3b585643",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3e17851a56f3d3b585644",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e19851a56f3d3b585645",
+        "formula": "L"
+      },
+      {
+        "idMaterial": "63f3e1ce51a56f3d3b585646",
+        "formula": "2*L+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1de51a56f3d3b585647",
+        "formula": "2*L+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1ef51a56f3d3b585648",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e22451a56f3d3b585649",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image065.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6427451a56f3d3b5857f1"
+    },
+    "type": "Casement Window",
+    "series": "100",
+    "doorLeaves": "2",
+    "description": "2 DAUN",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e16551a56f3d3b585643",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e17851a56f3d3b585644",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e19851a56f3d3b585645",
+        "formula": "T"
+      },
+      {
+        "idMaterial": "63f3e1ce51a56f3d3b585646",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e1de51a56f3d3b585647",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e1ef51a56f3d3b585648",
+        "formula": "L*T"
+      }
+    ],
+    "imageUrl": "image067.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6427551a56f3d3b5857f2"
+    },
+    "type": "Casement Window",
+    "series": "100",
+    "doorLeaves": "2",
+    "description": "2 DAUN + KM",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e16551a56f3d3b585643",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "63f3e17851a56f3d3b585644",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e19851a56f3d3b585645",
+        "formula": "L+(T-A)"
+      },
+      {
+        "idMaterial": "",
+        "formula": "2*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1de51a56f3d3b585647",
+        "formula": "2*L+4*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1ef51a56f3d3b585648",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e22451a56f3d3b585649",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image069.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6427551a56f3d3b5857f3"
+    },
+    "type": "Casement Window",
+    "series": "100",
+    "doorLeaves": "3",
+    "description": "3 DAUN",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e16551a56f3d3b585643",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e17851a56f3d3b585644",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e19851a56f3d3b585645",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f3e1ce51a56f3d3b585646",
+        "formula": "2*L+6*T"
+      },
+      {
+        "idMaterial": "63f3e1de51a56f3d3b585647",
+        "formula": "2*L+6*T"
+      },
+      {
+        "idMaterial": "63f3e1ef51a56f3d3b585648",
+        "formula": "L*T"
+      }
+    ],
+    "imageUrl": "image071.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6427651a56f3d3b5857f4"
+    },
+    "type": "Casement Window",
+    "series": "100",
+    "doorLeaves": "3",
+    "description": "3 DAUN + 1 KM",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e16551a56f3d3b585643",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e17851a56f3d3b585644",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e19851a56f3d3b585645",
+        "formula": "L+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1ce51a56f3d3b585646",
+        "formula": "2*L+6*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1de51a56f3d3b585647",
+        "formula": "2*L+6*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1ef51a56f3d3b585648",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e22451a56f3d3b585649",
+        "formula": "2*L+2*A"
+      }
+    ],
+    "imageUrl": "image073.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6427651a56f3d3b5857f5"
+    },
+    "type": "Casement Window",
+    "series": "100",
+    "doorLeaves": "3",
+    "description": "3 DAUN + 3 KM",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e16551a56f3d3b585643",
+        "formula": "6"
+      },
+      {
+        "idMaterial": "63f3e17851a56f3d3b585644",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e19851a56f3d3b585645",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "63f3e1ce51a56f3d3b585646",
+        "formula": "2*L+6*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1de51a56f3d3b585647",
+        "formula": "2*L+6*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1ef51a56f3d3b585648",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e22451a56f3d3b585649",
+        "formula": "2*L+6*A"
+      }
+    ],
+    "imageUrl": "image075.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6427751a56f3d3b5857f6"
+    },
+    "type": "Casement Window",
+    "series": "100",
+    "doorLeaves": "4",
+    "description": "4 DAUN",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e16551a56f3d3b585643",
+        "formula": "8"
+      },
+      {
+        "idMaterial": "63f3e17851a56f3d3b585644",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e19851a56f3d3b585645",
+        "formula": "3*T"
+      },
+      {
+        "idMaterial": "63f3e1ce51a56f3d3b585646",
+        "formula": "2*L+8*T"
+      },
+      {
+        "idMaterial": "63f3e1de51a56f3d3b585647",
+        "formula": "2*L+8*T"
+      },
+      {
+        "idMaterial": "63f3e1ef51a56f3d3b585648",
+        "formula": "L*T"
+      }
+    ],
+    "imageUrl": "image077.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6427851a56f3d3b5857f7"
+    },
+    "type": "Casement Window",
+    "series": "100",
+    "doorLeaves": "4",
+    "description": "4 DAUN + 1 KM",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e16551a56f3d3b585643",
+        "formula": "8"
+      },
+      {
+        "idMaterial": "63f3e17851a56f3d3b585644",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e19851a56f3d3b585645",
+        "formula": "L+T+2*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1ce51a56f3d3b585646",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1de51a56f3d3b585647",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1ef51a56f3d3b585648",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e22451a56f3d3b585649",
+        "formula": "2*L+4*A"
+      }
+    ],
+    "imageUrl": "image079.png"
+  },
+  {
+    "_id": {
+      "$oid": "63f6427851a56f3d3b5857f8"
+    },
+    "type": "Casement Window",
+    "series": "100",
+    "doorLeaves": "4",
+    "description": "4 DAUN + 4 KM",
+    "fixGlassTop": true,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e16551a56f3d3b585643",
+        "formula": "8"
+      },
+      {
+        "idMaterial": "63f3e17851a56f3d3b585644",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e19851a56f3d3b585645",
+        "formula": "L+3*T"
+      },
+      {
+        "idMaterial": "63f3e1ce51a56f3d3b585646",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1de51a56f3d3b585647",
+        "formula": "2*L+8*(T-A)"
+      },
+      {
+        "idMaterial": "63f3e1ef51a56f3d3b585648",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3e22451a56f3d3b585649",
+        "formula": "2*L+8*A"
+      }
+    ],
+    "imageUrl": "image081.png"
+  },
+  {
+    "_id": {
+      "$oid": "6475c49451a56f3d3b58590c"
+    },
+    "type": "Sliding Door",
+    "series": "80",
+    "doorLeaves": "1",
+    "description": "1 Daun Hidup",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "0.16+L*T"
+      },
+      {
+        "idMaterial": "63f3dd0051a56f3d3b58562c",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3dd1051a56f3d3b58562d",
+        "formula": "2*L+2*0.08+0.036+T+0.036+0.04"
+      },
+      {
+        "idMaterial": "63f3dd4651a56f3d3b58562f",
+        "formula": "2*L+2*0.08+2*T+2*0.04"
+      },
+      {
+        "idMaterial": "63f3dd6551a56f3d3b585630",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "63f3dc2251a56f3d3b58562b",
+        "formula": "2*L+2*0.08+0.036"
+      },
+      {
+        "idMaterial": "63f3dbd351a56f3d3b585629",
+        "formula": "2*L+2*0.08+0.036+T+0.036+0.04"
+      }
+    ],
+    "imageUrl": "DELICA-1685763638806-WhatsApp Image 2023-06-03 at 10.40.15 AM.jpeg"
+  },
+  {
+    "_id": {
+      "$oid": "647ab95351a56f3d3b585918"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "1",
+    "description": "1 Daun Hidup",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3e00851a56f3d3b58563c",
+        "formula": "T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "T"
+      }
+    ],
+    "imageUrl": "DELICA-1685764434033-WhatsApp Image 2023-06-03 at 10.53.26 AM.jpeg"
+  },
+  {
+    "_id": {
+      "$oid": "647abb3951a56f3d3b585919"
+    },
+    "type": "Folding Door",
+    "series": "75",
+    "doorLeaves": "2",
+    "description": "2 Daun Hidup",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3df7a51a56f3d3b585639",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "63f3dfb551a56f3d3b58563a",
+        "formula": "2*L+2*T"
+      },
+      {
+        "idMaterial": "63f3dfd151a56f3d3b58563b",
+        "formula": "2*L+4*T"
+      },
+      {
+        "idMaterial": "63f3e02a51a56f3d3b58563d",
+        "formula": "T"
+      },
+      {
+        "idMaterial": "63f3e06f51a56f3d3b58563f",
+        "formula": "2*T"
+      }
+    ],
+    "imageUrl": "DELICA-1685764920721-WhatsApp Image 2023-06-03 at 11.01.38 AM.jpeg"
+  },
+  {
+    "_id": {
+      "$oid": "647abf1f51a56f3d3b58591f"
+    },
+    "type": "Sliding Window",
+    "series": "70",
+    "doorLeaves": "3",
+    "description": "3 Daun Hidup",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "63f3de7d51a56f3d3b585634",
+        "formula": "2.5"
+      },
+      {
+        "idMaterial": "63f3de9b51a56f3d3b585635",
+        "formula": "4*L+4*T"
+      },
+      {
+        "idMaterial": "63f3dead51a56f3d3b585636",
+        "formula": "2*L+6*T"
+      },
+      {
+        "idMaterial": "63f3dee851a56f3d3b585637",
+        "formula": "4*T"
+      }
+    ],
+    "imageUrl": "DELICA-1685765918331-WhatsApp Image 2023-06-03 at 10.45.40 AM.jpeg"
+  },
+  {
+    "_id": {
+      "$oid": "65602eaa462e40512f217ef7"
+    },
+    "type": "Swing Door SS",
+    "series": "1",
+    "doorLeaves": "1",
+    "description": "1 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "65602878462e40512f217eef",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "656028ad462e40512f217ef0",
+        "formula": "2*T+L"
+      },
+      {
+        "idMaterial": "6560291a462e40512f217ef3",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "DELICA-1700805699406-Untitled.png"
+  },
+  {
+    "_id": {
+      "$oid": "65603d17462e40512f217ef8"
+    },
+    "type": "Swing Door SS",
+    "series": "2",
+    "doorLeaves": "1",
+    "description": "1 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "0"
+      },
+      {
+        "idMaterial": "65602dca462e40512f217ef6",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "65602878462e40512f217eef",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "656028cf462e40512f217ef1",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "65602d7f462e40512f217ef4",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "DELICA-1700805910221-Untitled.png"
+  },
+  {
+    "_id": {
+      "$oid": "65603db0462e40512f217ef9"
+    },
+    "type": "Swing Door SS",
+    "series": "3",
+    "doorLeaves": "1",
+    "description": "1 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "0"
+      },
+      {
+        "idMaterial": "65602dca462e40512f217ef6",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "65602878462e40512f217eef",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "656028ed462e40512f217ef2",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "65602db7462e40512f217ef5",
+        "formula": "2*L+2*T"
+      }
+    ],
+    "imageUrl": "DELICA-1700806063703-Untitled.png"
+  },
+  {
+    "_id": {
+      "$oid": "6560417e462e40512f217f02"
+    },
+    "type": "Sliding Door SS",
+    "series": "4",
+    "doorLeaves": "1",
+    "description": "1 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "65603e95462e40512f217efa",
+        "formula": "1"
+      },
+      {
+        "idMaterial": "65603eba462e40512f217efb",
+        "formula": "L"
+      },
+      {
+        "idMaterial": "65603fc4462e40512f217efe",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "65603ff3462e40512f217eff",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "65604012462e40512f217f00",
+        "formula": "1*T"
+      },
+      {
+        "idMaterial": "6560402f462e40512f217f01",
+        "formula": "L"
+      }
+    ],
+    "imageUrl": "DELICA-1700807036968-Untitled2.png"
+  },
+  {
+    "_id": {
+      "$oid": "65604264462e40512f217f03"
+    },
+    "type": "Sliding Door SS",
+    "series": "4",
+    "doorLeaves": "2",
+    "description": "2 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "65603e95462e40512f217efa",
+        "formula": "2"
+      },
+      {
+        "idMaterial": "65603fa5462e40512f217efd",
+        "formula": "L"
+      },
+      {
+        "idMaterial": "65603fc4462e40512f217efe",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "65603ff3462e40512f217eff",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "65604012462e40512f217f00",
+        "formula": "2*T"
+      },
+      {
+        "idMaterial": "6560402f462e40512f217f01",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "DELICA-1700807267115-Untitled2.png"
+  },
+  {
+    "_id": {
+      "$oid": "656043bb462e40512f217f04"
+    },
+    "type": "Sliding Door SS",
+    "series": "4",
+    "doorLeaves": "3",
+    "description": "3 Daun",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "65603e95462e40512f217efa",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "65603f0e462e40512f217efc",
+        "formula": "L"
+      },
+      {
+        "idMaterial": "65603fc4462e40512f217efe",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "65603ff3462e40512f217eff",
+        "formula": "6*T"
+      },
+      {
+        "idMaterial": "65604012462e40512f217f00",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "6560402f462e40512f217f01",
+        "formula": "2*L"
+      }
+    ],
+    "imageUrl": "DELICA-1700807609785-Untitled2.png"
+  },
+  {
+    "_id": {
+      "$oid": "656044e0462e40512f217f05"
+    },
+    "type": "Sliding Door SS",
+    "series": "4",
+    "doorLeaves": "4",
+    "description": "4 Daun ( Bergantian)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "65603e95462e40512f217efa",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "65603fa5462e40512f217efd",
+        "formula": "L"
+      },
+      {
+        "idMaterial": "65603fc4462e40512f217efe",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "65603ff3462e40512f217eff",
+        "formula": "8*T"
+      },
+      {
+        "idMaterial": "65604012462e40512f217f00",
+        "formula": "4*T"
+      },
+      {
+        "idMaterial": "6560402f462e40512f217f01",
+        "formula": "4*L"
+      }
+    ],
+    "imageUrl": "DELICA-1700807903638-Untitled2.png"
+  },
+  {
+    "_id": {
+      "$oid": "656045f4462e40512f217f06"
+    },
+    "type": "Sliding Door SS",
+    "series": "4",
+    "doorLeaves": "4",
+    "description": "4 (Numpuk)",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "65603e95462e40512f217efa",
+        "formula": "4"
+      },
+      {
+        "idMaterial": "65603fa5462e40512f217efd",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "65603fc4462e40512f217efe",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "65603ff3462e40512f217eff",
+        "formula": "8*T"
+      },
+      {
+        "idMaterial": "65604012462e40512f217f00",
+        "formula": "6*T"
+      },
+      {
+        "idMaterial": "6560402f462e40512f217f01",
+        "formula": "4*L"
+      }
+    ],
+    "imageUrl": "DELICA-1700808382314-Untitled2.png"
+  },
+  {
+    "_id": {
+      "$oid": "65604bbf462e40512f217f0d"
+    },
+    "type": "Folding Door SS",
+    "series": "5",
+    "doorLeaves": "3",
+    "description": "3 Daun+1",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "656049b7462e40512f217f07",
+        "formula": "3"
+      },
+      {
+        "idMaterial": "656049fa462e40512f217f08",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "65604a37462e40512f217f09",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "65604a6d462e40512f217f0a",
+        "formula": "8*T"
+      },
+      {
+        "idMaterial": "65604a85462e40512f217f0b",
+        "formula": "3*T"
+      },
+      {
+        "idMaterial": "65604ac4462e40512f217f0c",
+        "formula": "T"
+      }
+    ],
+    "imageUrl": "DELICA-1700810290945-Untitled.png"
+  },
+  {
+    "_id": {
+      "$oid": "65604d2d462e40512f217f0e"
+    },
+    "type": "Folding Door SS",
+    "series": "5",
+    "doorLeaves": "5",
+    "description": "5 Daun+1",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "656049b7462e40512f217f07",
+        "formula": "5"
+      },
+      {
+        "idMaterial": "656049fa462e40512f217f08",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "65604a37462e40512f217f09",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "65604a6d462e40512f217f0a",
+        "formula": "12*T"
+      },
+      {
+        "idMaterial": "65604a85462e40512f217f0b",
+        "formula": "5*T"
+      },
+      {
+        "idMaterial": "65604ac4462e40512f217f0c",
+        "formula": "T"
+      }
+    ],
+    "imageUrl": "DELICA-1700810379435-Untitled.png"
+  },
+  {
+    "_id": {
+      "$oid": "65604dc5462e40512f217f0f"
+    },
+    "type": "Folding Door SS",
+    "series": "5",
+    "doorLeaves": "7",
+    "description": "7 Daun+1",
+    "fixGlassTop": false,
+    "fixGlassBottom": false,
+    "material": [
+      {
+        "idMaterial": "Kaca",
+        "formula": "L*T"
+      },
+      {
+        "idMaterial": "656049b7462e40512f217f07",
+        "formula": "7"
+      },
+      {
+        "idMaterial": "656049fa462e40512f217f08",
+        "formula": "L+2*T"
+      },
+      {
+        "idMaterial": "65604a37462e40512f217f09",
+        "formula": "2*L"
+      },
+      {
+        "idMaterial": "65604a6d462e40512f217f0a",
+        "formula": "16*T"
+      },
+      {
+        "idMaterial": "65604a85462e40512f217f0b",
+        "formula": "7*T"
+      },
+      {
+        "idMaterial": "65604ac4462e40512f217f0c",
+        "formula": "T"
+      }
+    ],
+    "imageUrl": "DELICA-1700810443054-Untitled.png"
   }
 ]

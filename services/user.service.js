@@ -106,7 +106,7 @@ async function update ( req, res )
 
 async function deleteOne ( req, res )
 {
-  const id = req.query.idUser
+  const id = req.params.id
   try
   {
     await UserModel.findByIdAndDelete( id )

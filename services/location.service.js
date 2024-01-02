@@ -81,7 +81,7 @@ async function update ( req, res )
 
 async function deleteOne ( req, res )
 {
-  const id = req.query.idLocation
+  const id = req.params.id
   try
   {
     await LocationModel.findByIdAndDelete( id )

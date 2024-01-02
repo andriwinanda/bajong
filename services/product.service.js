@@ -83,7 +83,7 @@ async function update ( req, res )
 
 async function deleteOne ( req, res )
 {
-  const id = req.query.idProduct
+  const id = req.params.id
   try
   {
     await ProductModel.findByIdAndDelete( id )
