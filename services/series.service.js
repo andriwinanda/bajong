@@ -1,6 +1,4 @@
 const SeriesModel = require( '../models/series.model' )
-
-
 async function create ( req, res )
 {
   try

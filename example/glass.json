@@ -1711,3 +1711,14 @@
     "description": ""
   }
 ]
+
+{
+  "_id": {
+    "$oid": "6550a2a57a182c3ba0a0f8b2"
+  },
+  "email": "admin",
+  "password": "$2b$10$7XEhzgdgINg/bFC.gjXYvu485y9QOgd4ookRE9vs2icU4jzh6aOI.",
+  "name": "Admin",
+  "role": "ROLE_ADMIN",
+  "__v": 0
+}
