@@ -104,6 +104,36 @@ async function update ( req, res )
   }
 }
 
+async function massUpdate(req, res) {
+  try {
+    const locations = await LocationModel.find()
+    for (el in req.body) {
+      const item = req.body[el]
+      const { name, description, price } = item
+      const glass = new GlassModel({ name, description }, { _id: false })
+      const { id } = item
+      await GlassModel.findByIdAndUpdate(id, glass)
+      for (const i in price) {
+        const selectedLocation = locations.findIndex(loc => loc._id === i)
+        locations[selectedLocation].idGlassPrice[id] = price[i]
+      }
+    }
+    for (const i in locations) {
+      const id = locations[i]._id
+      const { location, description, idMaterialPrice, idGlassPrice } = locations[i]
+      const locationItem = new LocationModel({ location, description, idMaterialPrice, idGlassPrice }, { _id: false })
+      await LocationModel.findByIdAndUpdate(id, locationItem)
+    }
+    return res.status(200).json({
+      message: 'Update Success'
+    })
+  } catch (error) {
+    return res.status(500).json({
+      message: error.message
+    })
+  }
+}
+
 async function deleteOne ( req, res )
 {
   const id = req.params.id
@@ -132,5 +162,5 @@ async function deleteOne ( req, res )
   }
 }
 
-module.exports = { create, findAll, findOne, update, deleteOne }
+module.exports = { create, findAll, findOne, update, massUpdate, deleteOne }
 
