@@ -112,7 +112,7 @@ async function massUpdate(req, res) {
       const { name, description, price } = item
       const glass = new GlassModel({ name, description }, { _id: false })
       const { id } = item
-      await GlassModel.findByIdAndUpdate(id, glass)
+      // await GlassModel.findByIdAndUpdate(id, glass)
       for (const i in price) {
         const selectedLocation = locations.findIndex(loc => loc._id === i)
         locations[selectedLocation].idGlassPrice[id] = price[i]
