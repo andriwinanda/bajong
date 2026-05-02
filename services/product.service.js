@@ -1,4 +1,7 @@
 const ProductModel = require( '../models/product.model' )
+const GlassModel = require( '../models/glass.model' )
+const MaterialModel = require( '../models/material.model' )
+const LocationModel = require( '../models/location.model' )
 
 
 async function create ( req, res )
@@ -98,5 +101,91 @@ async function deleteOne ( req, res )
   }
 }
 
-module.exports = { create, findAll, findOne, update, deleteOne }
+async function hitung ( req, res )
+{
+  try
+  {
+    const { productId, locationId, lebar, tinggi, fixGlassTop, fixGlassBottom, selectedGlass, tambahan, discount } = req.body
+
+    const productDetail = await ProductModel.findById( productId )
+    const location = await LocationModel.findById( locationId )
+    const glass = await GlassModel.find( {} )
+    const material = await MaterialModel.find( {} )
+
+    // Convert to object for easy access
+    const materialObj = {}
+    material.forEach( m => {
+      materialObj[m.idMaterial] = m
+    } )
+
+    const summary = {
+      material: [],
+      total: 0
+    }
+    let result = null
+
+    productDetail.material.map( el => {
+      if ( el.idMaterial )
+      {
+        const item = {
+          name: '',
+          id: null,
+          category: 'material',
+          formula: null,
+          rawformula: null,
+          itemPrice: null,
+          totalPrice: null
+        }
+        if ( el.idMaterial === 'Kaca' )
+        {
+          const glassItem = glass.find( e => e.idGlass === selectedGlass )
+          item.name = glassItem.name
+          item.itemPrice = glassItem.price[location.location]
+          item.category = 'glass'
+        }
+        else
+        {
+          item.itemPrice = materialObj[el.idMaterial].price[location.location]
+          item.name = materialObj[el.idMaterial].name
+        }
+        const formula = el.formula.replace( 'L', Number( lebar ) ).replace( 'T', Number( tinggi ) ).replace( 'A', Number( fixGlassTop ) ).replace( 'B', Number( fixGlassBottom ) )
+        item.rawformula = el.formula
+        item.formula = eval( formula )
+        item.id = el.idMaterial
+        item.totalPrice = item.itemPrice * item.formula
+        summary.material.push( item )
+        summary.total += item.totalPrice
+      }
+    } )
+    result = {
+      summary: summary,
+      lebar: lebar,
+      tinggi: tinggi,
+      fixGlassTop: fixGlassTop,
+      fixGlassBottom: fixGlassBottom,
+      productDetail: productDetail,
+      location: location.location
+    }
+    if ( tambahan && tambahan.isActive )
+    {
+      result.tambahan = tambahan
+    }
+    if ( discount && discount.isActive )
+    {
+      result.discount = discount
+    }
+
+    return res.status( 200 ).json( {
+      message: 'Ok',
+      data: result
+    } )
+  } catch ( error )
+  {
+    return res.status( 500 ).json( {
+      message: error.message
+    } )
+  }
+}
+
+module.exports = { create, findAll, findOne, update, deleteOne, hitung }
 
