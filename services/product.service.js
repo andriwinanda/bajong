@@ -105,12 +105,13 @@ async function hitung ( req, res )
 {
   try
   {
-    const { productId, locationId, lebar, tinggi, fixGlassTop, fixGlassBottom, selectedGlass, tambahan, discount } = req.body
+    const { productId, locationId, lebar, tinggi, fixGlassTop, fixGlassBottom, selectedGlass } = req.body
 
-    const productDetail = await ProductModel.findById( productId )
-    const location = await LocationModel.findById( locationId )
-    const glass = await GlassModel.find( {} )
-    const material = await MaterialModel.find( {} )
+    const productDetail = await ProductModel.findById( productId ) || null
+    console.log(productId, productDetail)
+    const location = await LocationModel.findById( locationId ) || null
+    const glass = await GlassModel.find( {} ) || null
+    const material = await MaterialModel.find( {} ) || null
 
     // Convert to object for easy access
     const materialObj = {}
