@@ -3,7 +3,6 @@ const GlassModel = require('../models/glass.model')
 const MaterialModel = require('../models/material.model')
 const LocationModel = require('../models/location.model')
 const sharp = require('sharp')
-const nodeHtmlToImage = require('node-html-to-image')
 const cloudinary = require('cloudinary').v2
 const axios = require('axios')
 
