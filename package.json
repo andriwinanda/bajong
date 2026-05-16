@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.16.1",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.41.0",
@@ -22,10 +23,9 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^6.10.1",
     "multer": "^1.4.2",
-    "node-html-to-image": "^5.0.0",
     "npm": "^10.2.0",
-    "puppeteer-core": "^25.0.2",
-    "s3": "^4.4.0"
+    "s3": "^4.4.0",
+    "sharp": "^0.34.5"
   },
   "overrides": {
     "graceful-fs": "^4.2.11"
