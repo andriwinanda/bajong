@@ -110,7 +110,8 @@ async function hitung ( req, res )
     const productDetail = await ProductModel.findById( productId ) || null
     console.log(productId, productDetail)
     const location = await LocationModel.findById( locationId ) || null
-    const glass = await GlassModel.find( {} ) || null
+    // const glass = await GlassModel.find( {} ) || null
+    const glass = await ProductModel.findById( selectedGlass ) || null
     const material = await MaterialModel.find( {} ) || null
 
     // Convert to object for easy access
@@ -139,7 +140,7 @@ async function hitung ( req, res )
         }
         if ( el.idMaterial === 'Kaca' )
         {
-          const glassItem = glass.find( e => e.idGlass === selectedGlass )
+          const glassItem = glass
           item.name = glassItem.name
           item.itemPrice = glassItem.price[location.location]
           item.category = 'glass'
