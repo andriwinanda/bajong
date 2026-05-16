@@ -48,7 +48,7 @@ function buildPriceCalculationHtml(result) {
     .meta { text-align: right; color: #6b7280; font-size: 14px; }
     .section { margin-bottom: 24px; }
     .section-title { margin: 0 0 14px; font-size: 18px; font-weight: 700; }
-    .info-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+    .info-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
     .info-card { padding: 12px 12px; border-radius: 10px; background: #f8fafc; border: 1px solid #e5e7eb; }
     .info-label { display: block; font-size: 10px; color: #6b7280; margin-bottom: 3px; }
     .info-value { font-size: 12px; font-weight: 700; color: #111827; }
@@ -87,14 +87,10 @@ function buildPriceCalculationHtml(result) {
           <span class="info-label">Ukuran</span>
           <span class="info-value">${result.lebar} x ${result.tinggi} m</span>
         </div>
-        <div class="info-card">
-          <span class="info-label">Jumlah Daun</span>
-          <span class="info-value">${result.productDetail.doorLeaves}</span>
-        </div>
       </div>
     </div>
     <div class="section">
-      ${result.fixGlassTop && result.fixGlassBottom ? `<p class="section-title">Parameter Tambahan</p>` : ''}
+    <p class="section-title">Parameter Tambahan</p>
       <div class="info-grid">
       ${result.fixGlassTop ?
       `<div class="info-card">
@@ -106,7 +102,14 @@ function buildPriceCalculationHtml(result) {
           <span class="info-label">Fix Glass Bottom</span>
           <span class="info-value">${result.fixGlassBottom || "-"}</span>
         </div>` : ''}
-       
+        <div class="info-card">
+          <span class="info-label">Kaca</span>
+          <span class="info-value">${result.summary.material[0].name}</span>
+        </div>
+        <div class="info-card">
+          <span class="info-label">Jumlah Daun</span>
+          <span class="info-value">${result.productDetail.doorLeaves}</span>
+        </div>
       </div>
     </div>
     <div class="section">
@@ -129,8 +132,10 @@ async function uploadImageToCloudinary(imageBuffer, fileName) {
   return new Promise((resolve, reject) => {
     const uploadStream = cloudinary.uploader.upload_stream(
       {
-        public_id: `price-calculation/${fileName.replace(/\.[^/.]+$/, '')}`,
-        folder: 'delica',
+        public_id: `${fileName.replace(/\.[^/.]+$/, '')}`,
+        folder: 'calculated',
+        format: 'jpg',
+        quality: '70',
         resource_type: 'auto'
       },
       (error, result) => {
