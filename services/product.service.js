@@ -2,7 +2,135 @@ const ProductModel = require('../models/product.model')
 const GlassModel = require('../models/glass.model')
 const MaterialModel = require('../models/material.model')
 const LocationModel = require('../models/location.model')
+const nodeHtmlToImage = require('node-html-to-image')
 
+function formatCurrency(value) {
+  return new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(value)
+}
+
+function buildPriceCalculationHtml(result) {
+  const itemsHtml = result.summary.material.map(item => {
+    const category = item.category === 'glass' ? 'Kaca' : 'Material'
+    return `
+      <tr>
+        <td>${item.name}</td>
+        <td>${category}</td>
+        <td>${item.rawformula}</td>
+        <td>${item.formula}</td>
+        <td>${formatCurrency(item.itemPrice)}</td>
+        <td>${formatCurrency(item.totalPrice)}</td>
+      </tr>`
+  }).join('')
+
+  return `<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { width:700px; margin: 0; padding: 0; background: #f7f8fa; font-family: Arial, Helvetica, sans-serif; color: #1f2937; }
+    .card { width: 100% !important; padding: 32px; background: #ffffff; border-radius: 24px; box-shadow: 0 24px 80px rgba(0,0,0,0.08); }
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px; }
+    .logo-box { display: flex; align-items: center; gap: 28px; }
+    .logo-icon { width: 56px; height: 56px; border-radius: 18px; background: #1d4ed8; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 28px; font-weight: 700; }
+    .brand-title { margin: 0; font-size: 28px; font-weight: 700; }
+    .brand-subtitle { margin: 0 0 0; color: #6b7280 !important; font-size: 12px; }
+    .meta { text-align: right; color: #6b7280; font-size: 14px; }
+    .section { margin-bottom: 24px; }
+    .section-title { margin: 0 0 14px; font-size: 18px; font-weight: 700; }
+    .info-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .info-card { padding: 18px 20px; border-radius: 18px; background: #f8fafc; border: 1px solid #e5e7eb; }
+    .info-label { display: block; font-size: 12px; color: #6b7280; margin-bottom: 8px; }
+    .info-value { font-size: 16px; font-weight: 700; color: #111827; }
+    table { width: 100%; border-collapse: collapse; margin-top: 14px; }
+    th, td { padding: 14px 12px; border-bottom: 1px solid #e5e7eb; text-align: left; font-size: 14px; }
+    th { background: #eef2ff; color: #1d4ed8; font-weight: 700; }
+    .total-row td { padding: 14px 0 !important; border-top: 2px solid #dbeafe; font-size: 16px; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="logo-box">
+       <img width="100" src="https://delica.co.id/images/logo.png">
+        <div>
+          <p class="brand-title">Hasil Perhitungan Harga</p>
+          <p class="brand-subtitle"> ${new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'long', year: 'numeric' })}, ${new Date().toLocaleTimeString('id-ID')} WIB</p>
+        </div>
+      </div>
+     
+    </div>
+    <div> <img style="padding-left: 16px; padding-right: 16px; display: block; margin: 0 auto;" width="300px" src="https://res.cloudinary.com/dhia7amjx/image/upload/v1704190949/delica/${result.productDetail.imageUrl}"> </div>
+    <div class="section" style="padding-top: 24px">
+      <p class="section-title">Data Perhitungan</p>
+      <div class="info-grid">
+        <div class="info-card">
+          <span class="info-label">Produk</span>
+          <span class="info-value">${result.productDetail.type || ''} ${result.productDetail.series || ''}</span>
+        </div>
+        <div class="info-card">
+          <span class="info-label">Lokasi Cabang</span>
+          <span class="info-value">${result.location.toUpperCase() || ''}</span>
+        </div>
+        <div class="info-card">
+          <span class="info-label">Ukuran</span>
+          <span class="info-value">${result.lebar} x ${result.tinggi} cm</span>
+        </div>
+        <div class="info-card">
+          <span class="info-label">Jumlah Daun</span>
+          <span class="info-value">${result.summary.material.length}</span>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      ${result.fixGlassTop && result.fixGlassBottom ? `<p class="section-title">Parameter Tambahan</p>`: ''}
+      <div class="info-grid">
+      ${result.fixGlassTop ?
+        `<div class="info-card">
+          <span class="info-label">Fix Glass Top</span>
+          <span class="info-value">${result.fixGlassTop || "-"}</span>
+        </div>` : ''}
+      ${result.fixGlassBottom ?
+        `<div class="info-card">
+          <span class="info-label">Fix Glass Bottom</span>
+          <span class="info-value">${result.fixGlassBottom || "-"}</span>
+        </div>` : ''}
+       
+      </div>
+    </div>
+    <div class="section">
+      <table>
+        <tbody>
+          <tr class="total-row">
+            <td colspan="5">Total Estimasi Harga</td>
+            <td style="text-align: right">${formatCurrency(result.summary.total)}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>`
+}
+// <table>
+//   <thead>
+//     <tr>
+//       <th>Item</th>
+//       <th>Kategori</th>
+//       <th>Formula</th>
+//       <th>Nilai</th>
+//       <th>Harga Satuan</th>
+//       <th>Total Harga</th>
+//     </tr>
+//   </thead>
+//   <tbody>
+//     ${itemsHtml}
+//     <tr class="total-row">
+//       <td colspan="5">Total Harga</td>
+//       <td>${formatCurrency(result.summary.total)}</td>
+//     </tr>
+//   </tbody>
+// </table>
 
 async function create(req, res) {
   try {
@@ -87,13 +215,13 @@ async function deleteOne(req, res) {
 
 async function hitung(req, res) {
   try {
-    const { productId, locationId, lebar, tinggi, fixGlassTop, fixGlassBottom, selectedGlass } = req.body
+    const { productId, locationId, lebar, tinggi, fixGlassTop, fixGlassBottom, selectedGlass, generateImage } = req.body
 
     const productDetail = await ProductModel.findById(productId) || null
     const location = await LocationModel.findById(locationId) || null
     const glass = await GlassModel.findById(selectedGlass) || null
     const material = await MaterialModel.find({}) || null
-    
+
     // Convert to object for easy access
     const materialObj = {}
     material.forEach(m => {
@@ -147,10 +275,24 @@ async function hitung(req, res) {
       location: location.location
     }
 
-    return res.status(200).json({
+    const response = {
       message: 'Ok',
       data: result
-    })
+    }
+
+    if (generateImage) {
+      const html = buildPriceCalculationHtml(result)
+      const imageBuffer = await nodeHtmlToImage({ html, encoding: 'buffer', puppeteerArgs: { args: ['--no-sandbox', '--disable-setuid-sandbox'] } })
+
+      if (req.body.asBlob) {
+        res.set('Content-Type', 'image/png')
+        return res.status(200).send(imageBuffer)
+      }
+
+      response.imageBase64 = imageBuffer.toString('base64')
+    }
+
+    return res.status(200).json(response)
   } catch (error) {
     return res.status(500).json({
       message: error.message
