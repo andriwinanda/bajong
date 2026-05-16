@@ -3,6 +3,13 @@ const GlassModel = require('../models/glass.model')
 const MaterialModel = require('../models/material.model')
 const LocationModel = require('../models/location.model')
 const nodeHtmlToImage = require('node-html-to-image')
+const cloudinary = require('cloudinary').v2
+
+cloudinary.config({
+  cloud_name: 'dhia7amjx',
+  api_key: '881578912472341',
+  api_secret: 'bmve9zgkRBL40qynjQNZdKOJico'
+})
 
 function formatCurrency(value) {
   return new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(value)
@@ -28,20 +35,23 @@ function buildPriceCalculationHtml(result) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { width:700px; margin: 0; padding: 0; background: #f7f8fa; font-family: Arial, Helvetica, sans-serif; color: #1f2937; }
-    .card { width: 100% !important; padding: 32px; background: #ffffff; border-radius: 24px; box-shadow: 0 24px 80px rgba(0,0,0,0.08); }
-    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px; }
+  <style>
+
+    * { box-sizing: border-box;}
+    body { margin: 0; padding: 24px; width: 600px; background: #fff; font-family: Arial, Helvetica, sans-serif; color: #1f2937; }
+    .container {width: 100%; overflow: visible;}
+   .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px; }
     .logo-box { display: flex; align-items: center; gap: 28px; }
     .logo-icon { width: 56px; height: 56px; border-radius: 18px; background: #1d4ed8; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 28px; font-weight: 700; }
-    .brand-title { margin: 0; font-size: 28px; font-weight: 700; }
+    .brand-title { margin: 0; font-size: 22px; font-weight: 700; }
     .brand-subtitle { margin: 0 0 0; color: #6b7280 !important; font-size: 12px; }
     .meta { text-align: right; color: #6b7280; font-size: 14px; }
     .section { margin-bottom: 24px; }
     .section-title { margin: 0 0 14px; font-size: 18px; font-weight: 700; }
-    .info-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
-    .info-card { padding: 18px 20px; border-radius: 18px; background: #f8fafc; border: 1px solid #e5e7eb; }
-    .info-label { display: block; font-size: 12px; color: #6b7280; margin-bottom: 8px; }
-    .info-value { font-size: 16px; font-weight: 700; color: #111827; }
+    .info-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+    .info-card { padding: 12px 12px; border-radius: 10px; background: #f8fafc; border: 1px solid #e5e7eb; }
+    .info-label { display: block; font-size: 10px; color: #6b7280; margin-bottom: 3px; }
+    .info-value { font-size: 12px; font-weight: 700; color: #111827; }
     table { width: 100%; border-collapse: collapse; margin-top: 14px; }
     th, td { padding: 14px 12px; border-bottom: 1px solid #e5e7eb; text-align: left; font-size: 14px; }
     th { background: #eef2ff; color: #1d4ed8; font-weight: 700; }
@@ -49,6 +59,7 @@ function buildPriceCalculationHtml(result) {
   </style>
 </head>
 <body>
+<div class="container">
   <div class="card">
     <div class="header">
       <div class="logo-box">
@@ -66,7 +77,7 @@ function buildPriceCalculationHtml(result) {
       <div class="info-grid">
         <div class="info-card">
           <span class="info-label">Produk</span>
-          <span class="info-value">${result.productDetail.type || ''} ${result.productDetail.series || ''}</span>
+          <span class="info-value">${result.productDetail.type || ''} S${result.productDetail.series || ''}</span>
         </div>
         <div class="info-card">
           <span class="info-label">Lokasi Cabang</span>
@@ -74,24 +85,24 @@ function buildPriceCalculationHtml(result) {
         </div>
         <div class="info-card">
           <span class="info-label">Ukuran</span>
-          <span class="info-value">${result.lebar} x ${result.tinggi} cm</span>
+          <span class="info-value">${result.lebar} x ${result.tinggi} m</span>
         </div>
         <div class="info-card">
           <span class="info-label">Jumlah Daun</span>
-          <span class="info-value">${result.summary.material.length}</span>
+          <span class="info-value">${result.productDetail.doorLeaves}</span>
         </div>
       </div>
     </div>
     <div class="section">
-      ${result.fixGlassTop && result.fixGlassBottom ? `<p class="section-title">Parameter Tambahan</p>`: ''}
+      ${result.fixGlassTop && result.fixGlassBottom ? `<p class="section-title">Parameter Tambahan</p>` : ''}
       <div class="info-grid">
       ${result.fixGlassTop ?
-        `<div class="info-card">
+      `<div class="info-card">
           <span class="info-label">Fix Glass Top</span>
           <span class="info-value">${result.fixGlassTop || "-"}</span>
         </div>` : ''}
       ${result.fixGlassBottom ?
-        `<div class="info-card">
+      `<div class="info-card">
           <span class="info-label">Fix Glass Bottom</span>
           <span class="info-value">${result.fixGlassBottom || "-"}</span>
         </div>` : ''}
@@ -109,8 +120,71 @@ function buildPriceCalculationHtml(result) {
       </table>
     </div>
   </div>
+</div>
 </body>
 </html>`
+}
+
+async function uploadImageToCloudinary(imageBuffer, fileName) {
+  return new Promise((resolve, reject) => {
+    const uploadStream = cloudinary.uploader.upload_stream(
+      {
+        public_id: `price-calculation/${fileName.replace(/\.[^/.]+$/, '')}`,
+        folder: 'delica',
+        resource_type: 'auto'
+      },
+      (error, result) => {
+        if (error) {
+          reject(new Error(`Cloudinary upload failed: ${error.message}`))
+        } else {
+          resolve(result.secure_url)
+        }
+      }
+    )
+    uploadStream.end(imageBuffer)
+  })
+}
+
+async function deleteImage(req, res) {
+  try {
+    const { publicId, imageUrl } = req.body
+    let idToDelete = publicId
+
+    if (!publicId && imageUrl) {
+      const match = imageUrl.match(/\/image\/upload\/(?:v\d+\/)?(.+?)(?:\.[^/.]+)?$|upload\/(.+?)$/)
+      idToDelete = match ? (match[1] || match[2]) : null
+    }
+
+    if (!idToDelete) {
+      return res.status(400).json({
+        message: 'Error',
+        error: 'Please provide publicId or imageUrl'
+      })
+    }
+
+    return new Promise((resolve, reject) => {
+      cloudinary.uploader.destroy(idToDelete, (error, result) => {
+        if (error) {
+          return res.status(500).json({
+            message: 'Error',
+            error: `Failed to delete image: ${error.message}`
+          })
+        }
+        return res.status(200).json({
+          message: 'Ok',
+          data: {
+            publicId: idToDelete,
+            result: result.result
+          }
+        })
+      })
+    })
+  } catch (error) {
+    return res.status(500).json({
+      message: 'Error',
+      error: error.message
+    })
+  }
 }
 // <table>
 //   <thead>
@@ -289,10 +363,18 @@ async function hitung(req, res) {
         return res.status(200).send(imageBuffer)
       }
 
-      response.imageBase64 = imageBuffer.toString('base64')
+      if (req.body.uploadToCloudinary) {
+        const timestamp = Date.now()
+        const fileName = `price-calculation-${timestamp}.png`
+        const cloudinaryUrl = await uploadImageToCloudinary(imageBuffer, fileName)
+        response.imageUrl = cloudinaryUrl
+      } else {
+        response.imageBase64 = imageBuffer.toString('base64')
+      }
     }
 
     return res.status(200).json(response)
+
   } catch (error) {
     return res.status(500).json({
       message: error.message
@@ -300,5 +382,5 @@ async function hitung(req, res) {
   }
 }
 
-module.exports = { create, findAll, findOne, update, deleteOne, hitung }
+module.exports = { create, findAll, findOne, update, deleteOne, hitung, deleteImage }
 
