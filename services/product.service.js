@@ -736,7 +736,7 @@ async function hitung(req, res) {
     if (generateImage) {
       const html = await buildPriceCalculationHtml(result)
       // const imageBuffer = await sharp({ html, encoding: 'buffer', puppeteerArgs: { args: ['--no-sandbox', '--disable-setuid-sandbox'] } })
-      const imageBuffer = await sharp(Buffer.from(html)).jpeg({ quality: 70 })
+      const imageBuffer = await sharp(Buffer.from(html)).jpeg({ quality: 70 }, 'utf8')
 
         .toBuffer()
 
