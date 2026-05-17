@@ -138,249 +138,254 @@ async function buildPriceCalculationHtml(result) {
   }
 
   const svg = `
-    <svg
-      width="650"
-      height="820"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-
-      <style>
-
-        .title {
-          fill: #1f2937;
-          font-size: 22px;
-          font-weight: 700;
-        }
-
-        .subtitle {
-          fill: #6b7280;
-          font-size: 12px;
-        }
-
-        .section-title {
-          fill: #1f2937;
-          font-size: 20px;
-          font-weight: 700;
-        }
-
-        .label {
-          fill: #6b7280;
-          font-size: 11px;
-        }
-
-        .value {
-          fill: #111827;
-          font-size: 13px;
-          font-weight: 700;
-        }
-
-        .price {
-          fill: #111827;
-          font-size: 18px;
-          font-weight: 700;
-        }
-
-        .card {
-          fill: #f8fafc;
-          stroke: #e5e7eb;
-          stroke-width: 1;
-          rx: 12;
-        }
-
-      </style>
-
-      <!-- Background -->
-
-      <rect
-        width="100%"
-        height="100%"
-        fill="#ffffff"
-      />
-
-      <!-- Logo -->
-
-      <image
-        href="${logoBase64}"
-        x="20"
-        y="22"
-        width="95"
-        height="36"
-      />
-
-      <!-- Header -->
-
-      <text
-        x="145"
-        y="42"
-        class="title"
+      <svg
+        width="650"
+        height="820"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
       >
-        Hasil Perhitungan Harga
-      </text>
 
-      <text
-        x="145"
-        y="62"
-        class="subtitle"
-      >
-        ${new Date().toLocaleDateString('id-ID')},
-        ${new Date().toLocaleTimeString('id-ID')} WIB
-      </text>
+        <rect
+          width="100%"
+          height="100%"
+          fill="#ffffff"
+        />
 
-      <!-- Product Image -->
+        <!-- LOGO -->
 
-      <image
-        href="${productBase64}"
-        x="120" 
-        y="90"
-        width="400"
-        height="320"
-        preserveAspectRatio="xMidYMid meet"
-      />
+        <image
+          xlink:href="${logoBase64}"
+          x="20"
+          y="22"
+          width="95"
+          height="36"
+        />
 
-      <!-- Section Title -->
+        <!-- HEADER -->
 
-      <text
-        x="22"
-        y="490"
-        class="section-title"
-      >
-        Data Perhitungan
-      </text>
+        <text
+          x="145"
+          y="42"
+          fill="#1f2937"
+          font-size="22"
+          font-weight="700"
+          font-family="Arial"
+        >
+          Hasil Perhitungan Harga
+        </text>
 
-      <!-- Card 1 -->
+        <text
+          x="145"
+          y="62"
+          fill="#6b7280"
+          font-size="12"
+          font-family="Arial"
+        >
+          ${escapeXml(
+            new Date().toLocaleDateString("id-ID")
+          )},
+          ${escapeXml(
+            new Date().toLocaleTimeString("id-ID")
+          )} WIB
+        </text>
 
-      <rect
-        x="22"
-        y="510"
-        width="185"
-        height="54"
-        class="card"
-      />
+        <!-- PRODUCT IMAGE -->
 
-      <text
-        x="34"
-        y="530"
-        class="label"
-      >
-        Produk
-      </text>
+        <image
+          xlink:href="${productBase64}"
+          x="120"
+          y="90"
+          width="400"
+          height="320"
+          preserveAspectRatio="xMidYMid meet"
+        />
 
-      <text
-        x="34"
-        y="550"
-        class="value"
-      >
-        ${result.productDetail.type || ''}
-        S${result.productDetail.series || ''}
-      </text>
+        <!-- TITLE -->
 
-      <!-- Card 2 -->
+        <text
+          x="22"
+          y="490"
+          fill="#1f2937"
+          font-size="20"
+          font-weight="700"
+          font-family="Arial"
+        >
+          Data Perhitungan
+        </text>
 
-      <rect
-        x="228"
-        y="510"
-        width="185"
-        height="54"
-        class="card"
-      />
+        <!-- CARD 1 -->
 
-      <text
-        x="240"
-        y="530"
-        class="label"
-      >
-        Lokasi Cabang
-      </text>
+        <rect
+          x="22"
+          y="510"
+          width="185"
+          height="54"
+          rx="12"
+          fill="#f8fafc"
+          stroke="#e5e7eb"
+        />
 
-      <text
-        x="240"
-        y="550"
-        class="value"
-      >
-        ${result.location.toUpperCase()}
-      </text>
+        <text
+          x="34"
+          y="530"
+          fill="#6b7280"
+          font-size="11"
+          font-family="Arial"
+        >
+          Produk
+        </text>
 
-      <!-- Card 3 -->
+        <text
+          x="34"
+          y="550"
+          fill="#111827"
+          font-size="13"
+          font-weight="700"
+          font-family="Arial"
+        >
+          ${escapeXml(
+            result.productDetail.type || ""
+          )}
+          S${escapeXml(
+            result.productDetail.series || ""
+          )}
+        </text>
 
-      <rect
-        x="434"
-        y="510"
-        width="185"
-        height="54"
-        class="card"
-      />
+        <!-- CARD 2 -->
 
-      <text
-        x="446"
-        y="530"
-        class="label"
-      >
-        Ukuran
-      </text>
+        <rect
+          x="228"
+          y="510"
+          width="185"
+          height="54"
+          rx="12"
+          fill="#f8fafc"
+          stroke="#e5e7eb"
+        />
 
-      <text
-        x="446"
-        y="550"
-        class="value"
-      >
-        ${result.lebar} x ${result.tinggi} m
-      </text>
+        <text
+          x="240"
+          y="530"
+          fill="#6b7280"
+          font-size="11"
+          font-family="Arial"
+        >
+          Lokasi Cabang
+        </text>
 
-      <!-- Parameter -->
+        <text
+          x="240"
+          y="550"
+          fill="#111827"
+          font-size="13"
+          font-weight="700"
+          font-family="Arial"
+        >
+          ${escapeXml(
+            result.location.toUpperCase()
+          )}
+        </text>
 
-      <text
-        x="22"
-        y="605"
-        class="section-title"
-      >
-        Parameter Tambahan
-      </text>
+        <!-- CARD 3 -->
 
-      ${fixedGlass.join('')}
+        <rect
+          x="434"
+          y="510"
+          width="185"
+          height="54"
+          rx="12"
+          fill="#f8fafc"
+          stroke="#e5e7eb"
+        />
 
-      <!-- Divider -->
+        <text
+          x="446"
+          y="530"
+          fill="#6b7280"
+          font-size="11"
+          font-family="Arial"
+        >
+          Ukuran
+        </text>
 
-      <line
-        x1="22"
-        y1="705"
-        x2="620"
-        y2="705"
-        stroke="#cbd5e1"
-        stroke-width="1"
-      />
+        <text
+          x="446"
+          y="550"
+          fill="#111827"
+          font-size="13"
+          font-weight="700"
+          font-family="Arial"
+        >
+          ${escapeXml(result.lebar)}
+          x
+          ${escapeXml(result.tinggi)} m
+        </text>
 
-      <!-- Total -->
+        <!-- PARAMETER -->
 
-      <text
-        x="22"
-        y="742"
-        class="section-title"
-      >
-        Total Estimasi Harga
-      </text>
+        <text
+          x="22"
+          y="605"
+          fill="#1f2937"
+          font-size="20"
+          font-weight="700"
+          font-family="Arial"
+        >
+          Parameter Tambahan
+        </text>
 
-      <text
-        x="620"
-        y="742"
-        text-anchor="end"
-        class="price"
-      >
-        ${formatCurrency(result.summary.total)}
-      </text>
+        ${fixedGlass.join("")}
 
-      <!-- Bottom Divider -->
+        <!-- DIVIDER -->
 
-      <line
-        x1="22"
-        y1="765"
-        x2="620"
-        y2="765"
-        stroke="#e5e7eb"
-        stroke-width="1"
-      />
+        <line
+          x1="22"
+          y1="705"
+          x2="620"
+          y2="705"
+          stroke="#cbd5e1"
+          stroke-width="1"
+        />
 
-    </svg>
-    `
+        <!-- TOTAL -->
+
+        <text
+          x="22"
+          y="742"
+          fill="#1f2937"
+          font-size="20"
+          font-weight="700"
+          font-family="Arial"
+        >
+          Total Estimasi Harga
+        </text>
+
+        <text
+          x="620"
+          y="742"
+          text-anchor="end"
+          fill="#111827"
+          font-size="18"
+          font-weight="700"
+          font-family="Arial"
+        >
+          ${escapeXml(
+            formatCurrency(
+              result.summary.total
+            )
+          )}
+        </text>
+
+        <line
+          x1="22"
+          y1="765"
+          x2="620"
+          y2="765"
+          stroke="#e5e7eb"
+          stroke-width="1"
+        />
+
+      </svg>`
 
 
   const example =
