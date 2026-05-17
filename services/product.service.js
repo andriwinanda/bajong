@@ -150,40 +150,34 @@ async function buildPriceCalculationHtml(result) {
           fill: #1f2937;
           font-size: 22px;
           font-weight: 700;
-          font-family: Arial, Helvetica, sans-serif;
         }
 
         .subtitle {
           fill: #6b7280;
           font-size: 12px;
-          font-family: Arial, Helvetica, sans-serif;
         }
 
         .section-title {
           fill: #1f2937;
           font-size: 20px;
           font-weight: 700;
-          font-family: Arial, Helvetica, sans-serif;
         }
 
         .label {
           fill: #6b7280;
           font-size: 11px;
-          font-family: Arial, Helvetica, sans-serif;
         }
 
         .value {
           fill: #111827;
           font-size: 13px;
           font-weight: 700;
-          font-family: Arial, Helvetica, sans-serif;
         }
 
         .price {
           fill: #111827;
           font-size: 18px;
           font-weight: 700;
-          font-family: Arial, Helvetica, sans-serif;
         }
 
         .card {
