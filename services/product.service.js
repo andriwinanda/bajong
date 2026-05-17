@@ -1,4 +1,5 @@
 const fs = require('fs')
+const os = require('os')
 const path = require('path')
 const ProductModel = require('../models/product.model')
 const GlassModel = require('../models/glass.model')
@@ -8,11 +9,18 @@ const cloudinary = require('cloudinary').v2
 const axios = require('axios')
 
 // When running in serverless environments with no control over system fonts,
-// allow FONTCONFIG_PATH to point to a custom fontconfig location.
-// On Vercel, set FONTCONFIG_PATH to a packaged fontconfig directory if you add custom fonts.
-const fontConfigPath = process.env.FONTCONFIG_PATH || path.join(__dirname, '../fonts')
-if (fontConfigPath && fs.existsSync(fontConfigPath)) {
-  process.env.FONTCONFIG_PATH = path.resolve(fontConfigPath)
+// allow custom fonts to be loaded from a packaged fonts folder.
+const fontDir = process.env.FONTCONFIG_PATH || path.join(__dirname, '../fonts')
+const fontConfigFile = path.join(fontDir, 'fonts.conf')
+if (fs.existsSync(fontDir)) {
+  if (fs.existsSync(fontConfigFile)) {
+    process.env.FONTCONFIG_FILE = path.resolve(fontConfigFile)
+  } else {
+    const tmpConfigFile = path.join(os.tmpdir(), 'fontconfig-sharp.conf')
+    const fontConfigXml = `<?xml version="1.0"?>\n<!DOCTYPE fontconfig SYSTEM \"fonts.dtd\">\n<fontconfig>\n  <dir>${fontDir}</dir>\n  <cachedir>${path.join(os.tmpdir(), 'fontconfig-cache')}</cachedir>\n</fontconfig>\n`
+    fs.writeFileSync(tmpConfigFile, fontConfigXml)
+    process.env.FONTCONFIG_FILE = tmpConfigFile
+  }
 }
 
 const sharp = require('sharp')
@@ -45,13 +53,17 @@ async function buildPriceCalculationHtml(result) {
         y="625"
         width="185"
         height="54"
-        class="card"
+        rx="12"
+        fill="#f8fafc"
+        stroke="#e5e7eb"
       />
 
       <text
         x="34"
         y="645"
-        class="label"
+        fill="#6b7280"
+        font-size="11"
+        font-family="Arial, Helvetica, sans-serif"
       >
         Kaca
       </text>
@@ -59,7 +71,10 @@ async function buildPriceCalculationHtml(result) {
       <text
         x="34"
         y="665"
-        class="value"
+        fill="#111827"
+        font-size="13"
+        font-weight="700"
+        font-family="Arial, Helvetica, sans-serif"
       >
         ${result.summary.material[0].name}
       </text>`)
@@ -70,13 +85,17 @@ async function buildPriceCalculationHtml(result) {
         y="625"
         width="185"
         height="54"
-        class="card"
+        rx="12"
+        fill="#f8fafc"
+        stroke="#e5e7eb"
       />
 
       <text
         x="240"
         y="645"
-        class="label"
+        fill="#6b7280"
+        font-size="11"
+        font-family="Arial, Helvetica, sans-serif"
       >
         Jumlah Daun
       </text>
@@ -84,7 +103,10 @@ async function buildPriceCalculationHtml(result) {
       <text
         x="240"
         y="665"
-        class="value"
+        fill="#111827"
+        font-size="13"
+        font-weight="700"
+        font-family="Arial, Helvetica, sans-serif"
       >
         ${result.productDetail.doorLeaves}
       </text>`)
@@ -96,13 +118,17 @@ async function buildPriceCalculationHtml(result) {
           y="625"
           width="185"
           height="54"
-          class="card"
+          rx="12"
+          fill="#f8fafc"
+          stroke="#e5e7eb"
         />
 
         <text
           x="446"
           y="645"
-          class="label"
+          fill="#6b7280"
+          font-size="11"
+          font-family="Arial, Helvetica, sans-serif"
         >
           Fix Glass Top
         </text>
@@ -110,7 +136,10 @@ async function buildPriceCalculationHtml(result) {
         <text
           x="446"
           y="665"
-          class="value"
+          fill="#111827"
+          font-size="13"
+          font-weight="700"
+          font-family="Arial, Helvetica, sans-serif"
         >
           ${result.fixGlassTop}
         </text>
@@ -126,13 +155,17 @@ async function buildPriceCalculationHtml(result) {
           y="695"
           width="185"
           height="54"
-          class="card"
+          rx="12"
+          fill="#f8fafc"
+          stroke="#e5e7eb"
         />
 
         <text
           x="34"
           y="715"
-          class="label"
+          fill="#6b7280"
+          font-size="11"
+          font-family="Arial, Helvetica, sans-serif"
         >
           Fix Glass Bottom
         </text>
@@ -140,7 +173,10 @@ async function buildPriceCalculationHtml(result) {
         <text
           x="34"
           y="735"
-          class="value"
+          fill="#111827"
+          font-size="13"
+          font-weight="700"
+          font-family="Arial, Helvetica, sans-serif"
         >
           ${result.fixGlassBottom}
         </text>
@@ -156,7 +192,7 @@ async function buildPriceCalculationHtml(result) {
         height="820"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
-        font-family="DejaVu Sans, Arial, Helvetica, sans-serif"
+        font-family='Helvetica Neue, Arial, Helvetica, sans-serif'
       >
 
         <rect
@@ -196,7 +232,7 @@ async function buildPriceCalculationHtml(result) {
           font-family="Arial, Helvetica, sans-serif"
         >
           ${new Date().toLocaleDateString("id-ID")},
-          ${ new Date().toLocaleTimeString("id-ID")} WIB
+          ${new Date().toLocaleTimeString("id-ID")} WIB
         </text>
 
         <!-- PRODUCT IMAGE -->
@@ -254,7 +290,7 @@ async function buildPriceCalculationHtml(result) {
           font-family="Arial, Helvetica, sans-serif"
         >
           ${result.productDetail.type || ""}
-          S${result.productDetail.series || "" }
+          S${result.productDetail.series || ""}
         </text>
 
         <!-- CARD 2 -->
@@ -373,7 +409,7 @@ async function buildPriceCalculationHtml(result) {
           font-weight="700"
           font-family="Arial, Helvetica, sans-serif"
         >
-          ${ formatCurrency(result.summary.total)}
+          ${formatCurrency(result.summary.total)}
         </text>
 
         <line
