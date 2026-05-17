@@ -1,3 +1,4 @@
+const fs = require('fs')
 const path = require('path')
 const ProductModel = require('../models/product.model')
 const GlassModel = require('../models/glass.model')
@@ -9,8 +10,9 @@ const axios = require('axios')
 // When running in serverless environments with no control over system fonts,
 // allow FONTCONFIG_PATH to point to a custom fontconfig location.
 // On Vercel, set FONTCONFIG_PATH to a packaged fontconfig directory if you add custom fonts.
-if (process.env.FONTCONFIG_PATH) {
-  process.env.FONTCONFIG_PATH = path.resolve(process.env.FONTCONFIG_PATH)
+const fontConfigPath = process.env.FONTCONFIG_PATH || path.join(__dirname, '../fonts')
+if (fontConfigPath && fs.existsSync(fontConfigPath)) {
+  process.env.FONTCONFIG_PATH = path.resolve(fontConfigPath)
 }
 
 const sharp = require('sharp')
@@ -154,6 +156,7 @@ async function buildPriceCalculationHtml(result) {
         height="820"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
+        font-family="DejaVu Sans, Arial, Helvetica, sans-serif"
       >
 
         <rect
