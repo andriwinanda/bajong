@@ -191,12 +191,8 @@ async function buildPriceCalculationHtml(result) {
           font-size="12"
           font-family="Arial"
         >
-          ${escapeXml(
-            new Date().toLocaleDateString("id-ID")
-          )},
-          ${escapeXml(
-            new Date().toLocaleTimeString("id-ID")
-          )} WIB
+          ${new Date().toLocaleDateString("id-ID")},
+          ${ new Date().toLocaleTimeString("id-ID")} WIB
         </text>
 
         <!-- PRODUCT IMAGE -->
@@ -253,12 +249,8 @@ async function buildPriceCalculationHtml(result) {
           font-weight="700"
           font-family="Arial"
         >
-          ${escapeXml(
-            result.productDetail.type || ""
-          )}
-          S${escapeXml(
-            result.productDetail.series || ""
-          )}
+          ${result.productDetail.type || ""}
+          S${result.productDetail.series || "" }
         </text>
 
         <!-- CARD 2 -->
@@ -291,9 +283,7 @@ async function buildPriceCalculationHtml(result) {
           font-weight="700"
           font-family="Arial"
         >
-          ${escapeXml(
-            result.location.toUpperCase()
-          )}
+          ${result.location.toUpperCase()}
         </text>
 
         <!-- CARD 3 -->
@@ -326,9 +316,9 @@ async function buildPriceCalculationHtml(result) {
           font-weight="700"
           font-family="Arial"
         >
-          ${escapeXml(result.lebar)}
+          ${result.lebar}
           x
-          ${escapeXml(result.tinggi)} m
+          ${result.tinggi} m
         </text>
 
         <!-- PARAMETER -->
@@ -379,11 +369,7 @@ async function buildPriceCalculationHtml(result) {
           font-weight="700"
           font-family="Arial"
         >
-          ${escapeXml(
-            formatCurrency(
-              result.summary.total
-            )
-          )}
+          ${ formatCurrency(result.summary.total)}
         </text>
 
         <line
