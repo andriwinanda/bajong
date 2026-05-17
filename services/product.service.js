@@ -8,6 +8,7 @@ const axios = require('axios')
 
 // When running in serverless environments with no control over system fonts,
 // allow FONTCONFIG_PATH to point to a custom fontconfig location.
+// On Vercel, set FONTCONFIG_PATH to a packaged fontconfig directory if you add custom fonts.
 if (process.env.FONTCONFIG_PATH) {
   process.env.FONTCONFIG_PATH = path.resolve(process.env.FONTCONFIG_PATH)
 }
@@ -179,7 +180,7 @@ async function buildPriceCalculationHtml(result) {
           fill="#1f2937"
           font-size="22"
           font-weight="700"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           Hasil Perhitungan Harga
         </text>
@@ -189,7 +190,7 @@ async function buildPriceCalculationHtml(result) {
           y="62"
           fill="#6b7280"
           font-size="12"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           ${new Date().toLocaleDateString("id-ID")},
           ${ new Date().toLocaleTimeString("id-ID")} WIB
@@ -214,7 +215,7 @@ async function buildPriceCalculationHtml(result) {
           fill="#1f2937"
           font-size="20"
           font-weight="700"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           Data Perhitungan
         </text>
@@ -236,7 +237,7 @@ async function buildPriceCalculationHtml(result) {
           y="530"
           fill="#6b7280"
           font-size="11"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           Produk
         </text>
@@ -247,7 +248,7 @@ async function buildPriceCalculationHtml(result) {
           fill="#111827"
           font-size="13"
           font-weight="700"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           ${result.productDetail.type || ""}
           S${result.productDetail.series || "" }
@@ -270,7 +271,7 @@ async function buildPriceCalculationHtml(result) {
           y="530"
           fill="#6b7280"
           font-size="11"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           Lokasi Cabang
         </text>
@@ -281,7 +282,7 @@ async function buildPriceCalculationHtml(result) {
           fill="#111827"
           font-size="13"
           font-weight="700"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           ${result.location.toUpperCase()}
         </text>
@@ -303,7 +304,7 @@ async function buildPriceCalculationHtml(result) {
           y="530"
           fill="#6b7280"
           font-size="11"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           Ukuran
         </text>
@@ -314,7 +315,7 @@ async function buildPriceCalculationHtml(result) {
           fill="#111827"
           font-size="13"
           font-weight="700"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           ${result.lebar}
           x
@@ -329,7 +330,7 @@ async function buildPriceCalculationHtml(result) {
           fill="#1f2937"
           font-size="20"
           font-weight="700"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           Parameter Tambahan
         </text>
@@ -355,7 +356,7 @@ async function buildPriceCalculationHtml(result) {
           fill="#1f2937"
           font-size="20"
           font-weight="700"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           Total Estimasi Harga
         </text>
@@ -367,7 +368,7 @@ async function buildPriceCalculationHtml(result) {
           fill="#111827"
           font-size="18"
           font-weight="700"
-          font-family="Arial"
+          font-family="Arial, Helvetica, sans-serif"
         >
           ${ formatCurrency(result.summary.total)}
         </text>
