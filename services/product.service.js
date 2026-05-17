@@ -1,10 +1,18 @@
+const path = require('path')
 const ProductModel = require('../models/product.model')
 const GlassModel = require('../models/glass.model')
 const MaterialModel = require('../models/material.model')
 const LocationModel = require('../models/location.model')
-const sharp = require('sharp')
 const cloudinary = require('cloudinary').v2
 const axios = require('axios')
+
+// When running in serverless environments with no control over system fonts,
+// allow FONTCONFIG_PATH to point to a custom fontconfig location.
+if (process.env.FONTCONFIG_PATH) {
+  process.env.FONTCONFIG_PATH = path.resolve(process.env.FONTCONFIG_PATH)
+}
+
+const sharp = require('sharp')
 
 
 cloudinary.config({
@@ -137,6 +145,8 @@ async function buildPriceCalculationHtml(result) {
 
   }
 
+  // Avoid embedded SVG fonts in serverless environments. Use a custom FONTCONFIG_PATH
+  // and web-safe families like Arial so Sharp can rasterize the SVG reliably.
   const svg = `
       <svg
         width="650"
@@ -388,12 +398,7 @@ async function buildPriceCalculationHtml(result) {
       </svg>`
 
 
-  const example =
-    `<svg height="30" width="200" xmlns="http://www.w3.org/2000/svg">
-      <text x="5" y="15" fill="red">I love SVG!</text>
-      Sorry, your browser does not support inline SVG.
-    </svg>`
-  return example
+  return svg
 
   // const itemsHtml = result.summary.material.map(item => {
   //   const category = item.category === 'glass' ? 'Kaca' : 'Material'
@@ -740,11 +745,8 @@ async function hitung(req, res) {
     }
 
     if (generateImage) {
-      const html = await buildPriceCalculationHtml(result)
-      // const imageBuffer = await sharp({ html, encoding: 'buffer', puppeteerArgs: { args: ['--no-sandbox', '--disable-setuid-sandbox'] } })
-      const imageBuffer = await sharp(Buffer.from(html)).jpeg({ quality: 70 }, 'utf8')
-
-        .toBuffer()
+      const svg = await buildPriceCalculationHtml(result)
+      const imageBuffer = await sharp(Buffer.from(svg)).png().toBuffer()
 
       if (req.body.asBlob) {
         res.set('Content-Type', 'image/png')
