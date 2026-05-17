@@ -381,7 +381,14 @@ async function buildPriceCalculationHtml(result) {
 
     </svg>
     `
-  return svg
+
+
+  const example =
+    `<svg height="30" width="200" xmlns="http://www.w3.org/2000/svg">
+      <text x="5" y="15" fill="red">I love SVG!</text>
+      Sorry, your browser does not support inline SVG.
+    </svg>`
+  return example
 
   // const itemsHtml = result.summary.material.map(item => {
   //   const category = item.category === 'glass' ? 'Kaca' : 'Material'
