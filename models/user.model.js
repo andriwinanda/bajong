@@ -18,7 +18,9 @@ const userSchema = new Schema( {
   role: {
     type: String,
     require: true
-  }
+  },
+  fcmToken: String,
+  fcmTokens: [ String ]
 } )
 
 userSchema.set( 'toJSON', {
@@ -39,5 +41,3 @@ userSchema.methods.comparePassword = function(pass) {
 
 
 module.exports = mongoose.model( 'User', userSchema )
-
-

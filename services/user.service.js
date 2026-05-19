@@ -5,8 +5,8 @@ async function create ( req, res )
 {
   try
   {
-    const { email, password, name, role } = req.body
-    const user = new UserModel( { email, password, name, role } )
+    const { email, password, name, role, fcmToken, fcmTokens } = req.body
+    const user = new UserModel( { email, password, name, role, fcmToken, fcmTokens } )
     user.password = bcrypt.hashSync( req.body.password, 10 )
     const data = await user.save()
     return res.status( 200 ).json( {
@@ -86,8 +86,8 @@ async function getDetails ( req, res )
 
 async function update ( req, res )
 {
-  const { email, password, name, role } = req.body
-  const user = new UserModel( { email, password, name, role }, { _id : false } )
+  const { email, password, name, role, fcmToken, fcmTokens } = req.body
+  const user = new UserModel( { email, password, name, role, fcmToken, fcmTokens }, { _id : false } )
   const { id } = req.params
   try
   {
@@ -121,5 +121,35 @@ async function deleteOne ( req, res )
   }
 }
 
-module.exports = { create, findAll, findOne, update, deleteOne, getDetails }
+async function updateFcmToken ( req, res )
+{
+  const id = req.user.id
+  const { fcmToken } = req.body
 
+  try
+  {
+    if ( !fcmToken )
+    {
+      return res.status( 400 ).json( {
+        message: 'fcmToken is required'
+      } )
+    }
+
+    const data = await UserModel.findByIdAndUpdate( id, {
+      $set: { fcmToken },
+      $addToSet: { fcmTokens: fcmToken }
+    }, { new: true } )
+
+    return res.status( 200 ).json( {
+      message: 'Ok',
+      data
+    } )
+  } catch ( error )
+  {
+    return res.status( 500 ).json( {
+      message: error.message
+    } )
+  }
+}
+
+module.exports = { create, findAll, findOne, update, deleteOne, getDetails, updateFcmToken }

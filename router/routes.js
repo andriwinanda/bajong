@@ -10,6 +10,7 @@ const MaterialRouter = require( './material.router' )
 const ProductRouter = require( './product.router' )
 const SeriesRouter = require( './series.router' )
 const UserRouter = require( './user.router' )
+const LeadRouter = require( './lead.router' )
 const UploadRouter = require( './upload.router' )
 const Auth = require( './auth.router' )
 const { hitung, deleteImage } = require( '../services/product.service' )
@@ -41,8 +42,8 @@ router.post( '/product/image/delete', deleteImage )
 router.use( '/product', authHandler.loginRequired, ProductRouter )
 router.use( '/series', authHandler.loginRequired, SeriesRouter )
 router.use( '/user', authHandler.loginRequired, UserRouter )
+router.use( '/leads', authHandler.loginRequired, LeadRouter )
 router.use( '/upload', authHandler.loginRequired, UploadRouter )
 router.use( '/oauth', Auth )
 
 module.exports = router
-
