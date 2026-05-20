@@ -1,154 +1,130 @@
-const UserModel = require( '../models/user.model' )
-const bcrypt = require( 'bcrypt' )
+const UserModel = require('../models/user.model')
+const bcrypt = require('bcrypt')
 
-async function create ( req, res )
-{
-  try
-  {
+async function create(req, res) {
+  try {
     const { email, password, name, role, fcmToken, fcmTokens } = req.body
-    const user = new UserModel( { email, password, name, role, fcmToken, fcmTokens } )
-    user.password = bcrypt.hashSync( req.body.password, 10 )
+    const user = new UserModel({ email, password, name, role, fcmToken, fcmTokens })
+    user.password = bcrypt.hashSync(req.body.password, 10)
     const data = await user.save()
-    return res.status( 200 ).json( {
+    return res.status(200).json({
       message: 'Ok',
       data
-    } )
-  } catch ( error )
-  {
-    return res.status( 500 ).json( {
+    })
+  } catch (error) {
+    return res.status(500).json({
       message: error.message
-    } )
+    })
   }
 }
 
-async function findAll ( req, res )
-{
+async function findAll(req, res) {
   const { keyword } = req.query
   const query = {}
-  if ( keyword ) query.name = { "$regex": keyword, "$options": "i" }
-  try
-  {
-    const data = await UserModel.find( query )
-    return res.status( 200 ).json( data )
-  } catch ( error )
-  {
-    return res.status( 500 ).json( {
+  if (keyword) query.name = { "$regex": keyword, "$options": "i" }
+  try {
+    const data = await UserModel.find(query)
+    return res.status(200).json(data)
+  } catch (error) {
+    return res.status(500).json({
       message: error.message
-    } )
+    })
   }
 }
 
-async function findOne ( req, res )
-{
+async function findOne(req, res) {
   const id = req.params.id
-  try
-  {
-    const data = await UserModel.findById( id )
+  try {
+    const data = await UserModel.findById(id)
 
-    if ( data )
-    {
-      return res.status( 200 ).json( data )
+    if (data) {
+      return res.status(200).json(data)
     }
 
-    return res.status( 404 ).json( {
+    return res.status(404).json({
       message: 'Not Found',
-    } )
-  } catch ( error )
-  {
-    return res.status( 500 ).json( {
+    })
+  } catch (error) {
+    return res.status(500).json({
       message: error.message
-    } )
+    })
   }
 }
 
-async function getDetails ( req, res )
-{
+async function getDetails(req, res) {
   const id = req.user.id
-  try
-  {
-    const data = await UserModel.findById( id )
+  try {
+    const data = await UserModel.findById(id)
 
-    if ( data )
-    {
-      return res.status( 200 ).json( data )
+    if (data) {
+      return res.status(200).json(data)
     }
 
-    return res.status( 404 ).json( {
+    return res.status(404).json({
       message: 'Not Found',
-    } )
-  } catch ( error )
-  {
-    return res.status( 500 ).json( {
+    })
+  } catch (error) {
+    return res.status(500).json({
       message: error.message
-    } )
+    })
   }
 }
 
-async function update ( req, res )
-{
+async function update(req, res) {
   const { email, password, name, role, fcmToken, fcmTokens } = req.body
-  const user = new UserModel( { email, password, name, role, fcmToken, fcmTokens }, { _id : false } )
+  const user = new UserModel({ email, password, name, role, fcmToken, fcmTokens }, { _id: false })
   const { id } = req.params
-  try
-  {
-    const data = await UserModel.findByIdAndUpdate( id, user )
-    return res.status( 200 ).json( {
+  try {
+    const data = await UserModel.findByIdAndUpdate(id, user)
+    return res.status(200).json({
       message: 'Ok',
       data
-    } )
-  } catch ( error )
-  {
-    return res.status( 500 ).json( {
+    })
+  } catch (error) {
+    return res.status(500).json({
       message: error.message
-    } )
+    })
   }
 }
 
-async function deleteOne ( req, res )
-{
+async function deleteOne(req, res) {
   const id = req.params.id
-  try
-  {
-    await UserModel.findByIdAndDelete( id )
-    return res.status( 200 ).json( {
+  try {
+    await UserModel.findByIdAndDelete(id)
+    return res.status(200).json({
       message: 'Ok',
-    } )
-  } catch ( error )
-  {
-    return res.status( 500 ).json( {
+    })
+  } catch (error) {
+    return res.status(500).json({
       message: error.message
-    } )
+    })
   }
 }
 
-async function updateFcmToken ( req, res )
-{
+async function updateFcmToken(req, res) {
   const id = req.user.id
   const { fcmToken } = req.body
 
-  try
-  {
-    if ( !fcmToken )
-    {
-      return res.status( 400 ).json( {
+  try {
+    if (!fcmToken) {
+      return res.status(400).json({
         message: 'fcmToken is required'
-      } )
+      })
     }
 
-    const data = await UserModel.findByIdAndUpdate( id, {
+    const data = await UserModel.findByIdAndUpdate(id, {
       $set: { fcmToken },
       $addToSet: { fcmTokens: fcmToken }
-    }, { new: true } )
-
-    return res.status( 200 ).json( {
+    }, { new: true })
+    console.log(data)
+    return res.status(200).json({
       message: 'Ok',
       data
-    } )
-  } catch ( error )
-  {
-    return res.status( 500 ).json( {
+    })
+  } catch (error) {
+    return res.status(500).json({
       message: error.message
-    } )
+    })
   }
 }
 

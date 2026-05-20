@@ -14,6 +14,7 @@ const LeadRouter = require( './lead.router' )
 const UploadRouter = require( './upload.router' )
 const Auth = require( './auth.router' )
 const { hitung, deleteImage } = require( '../services/product.service' )
+const { notifyUser } = require( '../services/lead.service' )
 
 
 router.use( function ( req, res, next )
@@ -43,6 +44,7 @@ router.use( '/product', authHandler.loginRequired, ProductRouter )
 router.use( '/series', authHandler.loginRequired, SeriesRouter )
 router.use( '/user', authHandler.loginRequired, UserRouter )
 router.use( '/leads', authHandler.loginRequired, LeadRouter )
+router.use( '/leads/notification/:id', notifyUser )
 router.use( '/upload', authHandler.loginRequired, UploadRouter )
 router.use( '/oauth', Auth )
 
