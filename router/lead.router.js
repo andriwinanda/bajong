@@ -5,7 +5,7 @@ const { create, findAll, findOne, update, deleteOne, notifyUser } = require( '..
 const routes = express.Router()
 routes.post( '/', create )
 routes.get( '/', findAll )
-routes.post( '/notification/:userId', notifyUser )
+// routes.post( '/notification/:userId', notifyUser )
 routes.get( '/:id', findOne )
 routes.put( '/:id', update )
 routes.delete( '/:id', deleteOne )

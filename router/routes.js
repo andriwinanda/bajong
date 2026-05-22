@@ -13,8 +13,33 @@ const UserRouter = require( './user.router' )
 const LeadRouter = require( './lead.router' )
 const UploadRouter = require( './upload.router' )
 const Auth = require( './auth.router' )
+const AppRouter = require( './app.router' )
 const { hitung, deleteImage } = require( '../services/product.service' )
 const { notifyUser } = require( '../services/lead.service' )
+
+const notificationRequestTimes = new Map()
+const NOTIFICATION_RATE_LIMIT_MS = 500
+
+function notificationRateLimit ( req, res, next )
+{
+  const key = req.params.userId || req.ip
+  const now = Date.now()
+  const lastRequestAt = notificationRequestTimes.get( key ) || 0
+
+  if ( now - lastRequestAt < NOTIFICATION_RATE_LIMIT_MS )
+  {
+    return res.status( 429 ).json( {
+      message: 'Too many notification requests. Please wait 500ms before retrying.'
+    } )
+  }
+
+  notificationRequestTimes.set( key, now )
+  setTimeout( () =>
+  {
+    if ( notificationRequestTimes.get( key ) === now ) notificationRequestTimes.delete( key )
+  }, NOTIFICATION_RATE_LIMIT_MS )
+  next()
+}
 
 
 router.use( function ( req, res, next )
@@ -43,9 +68,10 @@ router.post( '/product/image/delete', deleteImage )
 router.use( '/product', authHandler.loginRequired, ProductRouter )
 router.use( '/series', authHandler.loginRequired, SeriesRouter )
 router.use( '/user', authHandler.loginRequired, UserRouter )
+router.post( '/leads/notification/:userId', notificationRateLimit, notifyUser )
 router.use( '/leads', authHandler.loginRequired, LeadRouter )
-router.use( '/leads/notification/:id', notifyUser )
 router.use( '/upload', authHandler.loginRequired, UploadRouter )
 router.use( '/oauth', Auth )
+router.use( '/app', AppRouter )
 
 module.exports = router

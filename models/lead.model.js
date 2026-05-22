@@ -6,13 +6,18 @@ const leadSchema = new Schema( {
     type: String,
     required: true
   },
-  email: String,
   phone: String,
-  company: String,
   source: String,
+  notes: String,
   message: String,
+  location: String,
+  branch: {
+    type: String,
+    default: 'jakarta'
+  },
   status: {
     type: String,
+    enum: ['new', 'contacted', 'qualified', 'closed'],
     default: 'new'
   },
   assignedUser: {

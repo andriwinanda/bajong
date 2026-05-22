@@ -2,16 +2,18 @@ const LeadModel = require('../models/lead.model')
 const UserModel = require('../models/user.model')
 const { sendNotificationToTokens } = require('./firebase.service')
 
+const ALLOWED_STATUSES = ['new', 'contacted', 'qualified', 'closed']
+
 function buildLeadPayload(body, userId) {
-  const { name, email, phone, company, source, message, status, assignedUser } = body
-  const payload = { name, email, phone, company, source, message, status, assignedUser, createdBy: userId }
+  const { name, phone, notes, source, message, status, branch, location, assignedUser } = body
+  const payload = { name, phone, notes, source, message, status, branch, location, assignedUser, createdBy: userId }
   if (!assignedUser) delete payload.assignedUser
   return payload
 }
 
 function buildLeadUpdatePayload(body) {
-  const { name, email, phone, company, source, message, status, assignedUser } = body
-  const payload = { name, email, phone, company, source, message, status, assignedUser }
+  const { name, phone, notes, source, message, status, branch, location, assignedUser } = body
+  const payload = { name, phone, notes, source, message, status, branch, location, assignedUser }
   Object.keys(payload).forEach(key => {
     if (payload[key] === undefined) delete payload[key]
   })
@@ -35,17 +37,28 @@ async function create(req, res) {
 }
 
 async function findAll(req, res) {
-  const { keyword, status, assignedUser } = req.query
+  const { keyword, status, branch, assignedUser } = req.query
   const query = {}
+
+  if (status && !ALLOWED_STATUSES.includes(status)) {
+    return res.status(400).json({
+      message: `status must be one of: ${ALLOWED_STATUSES.join(', ')}`
+    })
+  }
+
   if (keyword) {
     query.$or = [
       { name: { "$regex": keyword, "$options": "i" } },
-      { email: { "$regex": keyword, "$options": "i" } },
       { phone: { "$regex": keyword, "$options": "i" } },
-      { company: { "$regex": keyword, "$options": "i" } }
+      { source: { "$regex": keyword, "$options": "i" } },
+      { notes: { "$regex": keyword, "$options": "i" } },
+      { branch: { "$regex": keyword, "$options": "i" } },
+      { location: { "$regex": keyword, "$options": "i" } },
+      { status: { "$regex": keyword, "$options": "i" } }
     ]
   }
   if (status) query.status = status
+  if (branch) query.branch = branch
   if (assignedUser) query.assignedUser = assignedUser
 
   try {

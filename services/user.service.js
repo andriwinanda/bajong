@@ -116,7 +116,6 @@ async function updateFcmToken(req, res) {
       $set: { fcmToken },
       $addToSet: { fcmTokens: fcmToken }
     }, { new: true })
-    console.log(data)
     return res.status(200).json({
       message: 'Ok',
       data
