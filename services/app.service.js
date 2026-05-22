@@ -6,6 +6,7 @@ function parseBoolean ( value )
 async function getVersion ( req, res )
 {
   return res.status( 200 ).json( {
+    currentVersion: process.env.APP_CURRENT_VERSION,
     latestVersion: process.env.APP_LATEST_VERSION,
     message: 'Versi terbaru aplikasi sudah tersedia.'
   } )
