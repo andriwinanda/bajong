@@ -21,10 +21,35 @@ function buildLeadUpdatePayload(body) {
   return payload
 }
 
+async function sendLeadNotification(lead) {
+  try {
+    const user = await UserModel.find({
+      email: 'delica'+lead.branch
+    })
+
+    const tokens = user[0].fcmTokens && user[0].fcmTokens.length ? user[0].fcmTokens : [user[0].fcmToken]
+  
+    await sendNotificationToTokens(tokens, {
+      title: `Calon Customer Baru`,
+      body: `${lead.name}, Segera dihubungi yaa!`,
+      data: {
+        leadId: lead._id.toString()
+      }
+    })
+  } catch (error) {
+    console.error('Send notification error:', error)
+  }
+}
+
 async function create(req, res) {
+
   try {
     const lead = new LeadModel(buildLeadPayload(req.body, req.user.id))
     const data = await lead.save()
+    // send notif
+    // console.log(data)
+    sendLeadNotification(lead)
+
     return res.status(200).json({
       message: 'Ok',
       data
@@ -120,6 +145,7 @@ async function deleteOne(req, res) {
 }
 
 async function notifyUser(req, res) {
+  console.log(req)
   const { userId } = req.params
   const { title, body, data } = req.body
   const apiKey = req.headers['x-api-key']

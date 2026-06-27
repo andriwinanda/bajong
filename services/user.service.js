@@ -3,8 +3,8 @@ const bcrypt = require('bcrypt')
 
 async function create(req, res) {
   try {
-    const { email, password, name, role, fcmToken, fcmTokens } = req.body
-    const user = new UserModel({ email, password, name, role, fcmToken, fcmTokens })
+    const { email, password, name, role, fcmToken, fcmTokens, location } = req.body
+    const user = new UserModel({ email, password, name, role, fcmToken, fcmTokens, location })
     user.password = bcrypt.hashSync(req.body.password, 10)
     const data = await user.save()
     return res.status(200).json({
@@ -71,8 +71,8 @@ async function getDetails(req, res) {
 }
 
 async function update(req, res) {
-  const { email, password, name, role, fcmToken, fcmTokens } = req.body
-  const user = new UserModel({ email, password, name, role, fcmToken, fcmTokens }, { _id: false })
+  const { email, password, name, role, fcmToken, fcmTokens, location } = req.body
+  const user = new UserModel({ email, password, name, role, fcmToken, fcmTokens, location }, { _id: false })
   const { id } = req.params
   try {
     const data = await UserModel.findByIdAndUpdate(id, user)
