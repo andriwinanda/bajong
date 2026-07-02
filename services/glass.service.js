@@ -163,4 +163,3 @@ async function deleteOne ( req, res )
 }
 
 module.exports = { create, findAll, findOne, update, massUpdate, deleteOne }
-
