@@ -56,11 +56,20 @@ async function sendNotificationToTokens ( tokens, payload )
       body: payload.body
     },
     android: {
-      priority: 'high'
+      priority: 'high',
+      notification: {
+        channelId: 'leads_notification',
+        sound: 'delica_notification.wav'
+      }
     },
     apns: {
       headers: {
         'apns-priority': '10'
+      },
+      payload: {
+        aps: {
+          sound: 'delica_notification.wav'
+        }
       }
     },
     webpush: {
