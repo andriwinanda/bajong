@@ -41,16 +41,28 @@ function getFirebaseApp ()
 
 async function sendNotificationToTokens ( tokens, payload )
 {
-  const validTokens = ( Array.isArray( tokens ) ? tokens : [ tokens ] ).filter( token => !!token )
-  if ( !validTokens.length )
-  {
-    throw new Error( 'User does not have an FCM token' )
+  const rawTokens = Array.isArray(tokens) ? tokens : [tokens]
+
+  const normalized = rawTokens
+    .filter(t => (typeof t === 'string' || typeof t === 'number'))
+    .map(t => String(t).trim())
+
+  // remove empty, tokens containing whitespace, or very short values
+  const filtered = normalized.filter(t => t && /^\S+$/.test(t) && t.length >= 20)
+  const uniqueTokens = Array.from(new Set(filtered))
+
+  if (!uniqueTokens.length) {
+    throw new Error('User does not have an FCM token')
+  }
+
+  if (uniqueTokens.length !== rawTokens.length) {
+    console.warn(`sendNotificationToTokens: cleaned tokens, kept ${uniqueTokens.length} of ${rawTokens.length}`)
   }
 
   getFirebaseApp()
 
   const message = {
-    tokens: validTokens,
+    tokens: uniqueTokens,
     notification: {
       title: payload.title,
       body: payload.body
