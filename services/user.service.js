@@ -127,4 +127,40 @@ async function updateFcmToken(req, res) {
   }
 }
 
-module.exports = { create, findAll, findOne, update, deleteOne, getDetails, updateFcmToken }
+async function deleteFcmToken(req, res) {
+  const id = req.user.id
+  const { fcmToken } = req.body
+
+  try {
+    if (!fcmToken) {
+      return res.status(400).json({
+        message: 'fcmToken is required'
+      })
+    }
+
+    const user = await UserModel.findById(id)
+    console.log(user)
+    if (!user) {
+      return res.status(404).json({
+        message: 'User Not Found'
+      })
+    }
+
+    const update = { $pull: { fcmTokens: fcmToken } }
+    if (user.fcmToken === fcmToken) {
+      update.$unset = { fcmToken: '' }
+    }
+
+    const data = await UserModel.findByIdAndUpdate(id, update, { new: true })
+    return res.status(200).json({
+      message: 'Ok',
+      data
+    })
+  } catch (error) {
+    return res.status(500).json({
+      message: error.message
+    })
+  }
+}
+
+module.exports = { create, findAll, findOne, update, deleteOne, getDetails, updateFcmToken, deleteFcmToken }
