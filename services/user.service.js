@@ -139,7 +139,6 @@ async function deleteFcmToken(req, res) {
     }
 
     const user = await UserModel.findById(id)
-    console.log(user)
     if (!user) {
       return res.status(404).json({
         message: 'User Not Found'

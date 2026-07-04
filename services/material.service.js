@@ -92,31 +92,40 @@ async function update(req, res) {
 }
 async function massUpdate(req, res) {
   try {
-    const locations = await LocationModel.find()
-    for (el in req.body) {
-      const item = req.body[el]
-      const { name, description, price } = item
-      const material = new MaterialModel({ name, description }, { _id: false })
-      const { id } = item
-      // await MaterialModel.findByIdAndUpdate(id, material)
-      for (const i in price) {
-        const selectedLocation = locations.findIndex(loc => loc._id === i)
-        locations[selectedLocation].idMaterialPrice[id] = price[i]
+    const locations = await LocationModel.find();
+
+    for (const item of req.body) {
+      const { id, price = {} } = item;
+
+      if (!id) continue;
+
+      for (const locationId in price) {
+        const selectedLocation = locations.findIndex(
+          loc => loc._id.toString() === locationId
+        );
+
+        if (selectedLocation === -1) continue;
+
+        locations[selectedLocation].idMaterialPrice[id] = price[locationId];
       }
     }
-    for (const i in locations) {
-      const id = locations[i]._id
-      const { location, description, idMaterialPrice, idGlassPrice } = locations[i]
-      const locationItem = new LocationModel({ location, description, idMaterialPrice, idGlassPrice }, { _id: false })
-      await LocationModel.findByIdAndUpdate(id, locationItem)
+
+    for (const loc of locations) {
+      await LocationModel.findByIdAndUpdate(loc._id, {
+        location: loc.location,
+        description: loc.description,
+        idMaterialPrice: loc.idMaterialPrice,
+        idGlassPrice: loc.idGlassPrice,
+      });
     }
+
     return res.status(200).json({
-      message: 'Update Success'
-    })
+      message: "Update Success",
+    });
   } catch (error) {
     return res.status(500).json({
-      message: error.message
-    })
+      message: error.message,
+    });
   }
 }
 
