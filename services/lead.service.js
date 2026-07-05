@@ -4,9 +4,9 @@ const { sendNotificationToTokens } = require('./firebase.service')
 
 const ALLOWED_STATUSES = ['new', 'contacted', 'qualified', 'closed']
 
-function buildLeadPayload(body, userId) {
+function buildLeadPayload(body) {
   const { name, phone, notes, source, message, status, branch, location, assignedUser } = body
-  const payload = { name, phone, notes, source, message, status, branch, location, assignedUser, createdBy: userId }
+  const payload = { name, phone, notes, source, message, status, branch, location, assignedUser}
   if (!assignedUser) delete payload.assignedUser
   return payload
 }
@@ -44,7 +44,7 @@ async function sendLeadNotification(lead) {
 async function create(req, res) {
 
   try {
-    const lead = new LeadModel(buildLeadPayload(req.body, req.user.id))
+    const lead = new LeadModel(buildLeadPayload(req.body))
     const data = await lead.save()
     // send notif
     // console.log(data)
