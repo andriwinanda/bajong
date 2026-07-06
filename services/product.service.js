@@ -44,8 +44,10 @@ async function imageUrlToBase64(url) {
 }
 
 async function buildPriceCalculationHtml(result) {
-  const productBase64 = await imageUrlToBase64(`https://res.cloudinary.com/dhia7amjx/image/upload/v1704190949/delica/${result.productDetail.imageUrl}`)
+  
+  const productBase64 = await imageUrlToBase64(`${result.productDetail.imageUrl}`)
   const logoBase64 = await imageUrlToBase64("https://delica.co.id/images/logo.png")
+
   const fixedGlass = []
   fixedGlass.push(`
       <rect
@@ -422,8 +424,6 @@ async function buildPriceCalculationHtml(result) {
         />
 
       </svg>`
-
-
   return svg
 
   // const itemsHtml = result.summary.material.map(item => {
@@ -637,6 +637,23 @@ async function create(req, res) {
     })
   }
 }
+async function generateImage(req, res) {
+  try {
+    const result = req.body
+    const svg = await buildPriceCalculationHtml(result)
+    const imageBuffer = await sharp(Buffer.from(svg)).png().toBuffer()
+    
+    const timestamp = Date.now()
+    const fileName = `price-calculation-${timestamp}.png`
+    const imageUrl = await uploadImageToCloudinary(imageBuffer, fileName)
+
+    return res.status(200).json(imageUrl)
+  } catch (error) {
+    return res.status(500).json({
+      message: error.message
+    })
+  }
+}
 
 async function findAll(req, res) {
   const { keyword } = req.query
@@ -798,5 +815,5 @@ async function hitung(req, res) {
   }
 }
 
-module.exports = { create, findAll, findOne, update, deleteOne, hitung, deleteImage }
+module.exports = { create, findAll, findOne, update, deleteOne, hitung, generateImage, deleteImage }
 
