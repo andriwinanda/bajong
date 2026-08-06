@@ -6,7 +6,7 @@ const ALLOWED_STATUSES = ['new', 'contacted', 'qualified', 'closed']
 
 function buildLeadPayload(body) {
   const { name, phone, notes, source, message, status, branch, location, assignedUser } = body
-  const payload = { name, phone, notes, source, message, status, branch, location, assignedUser}
+  const payload = { name, phone, notes, source, message, status, branch, location, assignedUser }
   if (!assignedUser) delete payload.assignedUser
   return payload
 }
@@ -24,11 +24,11 @@ function buildLeadUpdatePayload(body) {
 async function sendLeadNotification(lead) {
   try {
     const user = await UserModel.find({
-      email: 'delica'+lead.branch
+      email: 'delica' + lead.branch
     })
 
     const tokens = user[0].fcmTokens && user[0].fcmTokens.length ? user[0].fcmTokens : [user[0].fcmToken]
-  
+
     await sendNotificationToTokens(tokens, {
       title: `Calon Customer Baru`,
       body: `${lead.name}, Segera dihubungi yaa!`,
@@ -49,7 +49,9 @@ async function create(req, res) {
     // send notif
     // console.log(data)
     sendLeadNotification(lead)
-    setTimeout(sendLeadNotification(lead), 1000)
+    setTimeout(() => {
+      sendLeadNotification(lead)
+    }, 1000)
 
     return res.status(200).json({
       message: 'Ok',
