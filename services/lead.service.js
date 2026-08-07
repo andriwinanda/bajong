@@ -23,12 +23,28 @@ function buildLeadUpdatePayload(body) {
 
 async function sendLeadNotification(lead) {
   try {
-    const user = await UserModel.find({
+    // 1. Use findOne since you only expect a single user per branch email match
+    const user = await UserModel.findOne({
       email: 'delica' + lead.branch
     })
 
-    const tokens = user[0].fcmTokens && user[0].fcmTokens.length ? user[0].fcmTokens : [user[0].fcmToken]
+    // 2. Add an explicit safety check to prevent a TypeError crash
+    if (!user) {
+      console.warn(`[Notification Warning]: No branch user found for email: delica${lead.branch}`)
+      return
+    }
 
+    // 3. Fallback safely if arrays or properties are missing
+    const tokens = user.fcmTokens && user.fcmTokens.length
+      ? user.fcmTokens
+      : (user.fcmToken ? [user.fcmToken] : [])
+
+    if (tokens.length === 0) {
+      console.warn(`[Notification Warning]: User delica${lead.branch} has no valid FCM tokens registered.`)
+      return
+    }
+
+    // 4. Send the notification exactly ONCE
     await sendNotificationToTokens(tokens, {
       title: `Calon Customer Baru`,
       body: `${lead.name}, Segera dihubungi yaa!`,
@@ -36,6 +52,8 @@ async function sendLeadNotification(lead) {
         leadId: lead._id.toString()
       }
     })
+
+    console.log(`[Notification Success]: Sent to delica${lead.branch} (${tokens.length} tokens)`)
   } catch (error) {
     console.error('Send notification error:', error)
   }
@@ -48,10 +66,10 @@ async function create(req, res) {
     const data = await lead.save()
     // send notif
     // console.log(data)
+
+    // Fire the background notification task ONCE. Do not use setTimeout.
     sendLeadNotification(lead)
-    setTimeout(() => {
-      sendLeadNotification(lead)
-    }, 3000)
+
 
     return res.status(200).json({
       message: 'Ok',
