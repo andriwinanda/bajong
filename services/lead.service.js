@@ -51,7 +51,7 @@ async function create(req, res) {
     sendLeadNotification(lead)
     setTimeout(() => {
       sendLeadNotification(lead)
-    }, 1000)
+    }, 3000)
 
     return res.status(200).json({
       message: 'Ok',
