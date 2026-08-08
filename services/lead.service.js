@@ -70,6 +70,10 @@ async function create(req, res) {
     // Fire the background notification task ONCE. Do not use setTimeout.
     sendLeadNotification(lead)
 
+    setTimeout(() => {
+      sendLeadNotification(lead)
+    }, 5000)
+
 
     return res.status(200).json({
       message: 'Ok',
