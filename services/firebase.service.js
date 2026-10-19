@@ -65,8 +65,9 @@ async function sendNotificationToTokens ( tokens, payload )
     tokens: uniqueTokens,
     notification: {
       title: payload.title,
-      body: payload.body
+      body: payload.body,
     },
+    data: payload.data,
     android: {
       priority: 'high',
       notification: {

@@ -51,7 +51,8 @@ async function sendLeadNotification(lead) {
       data: {
         leadId: lead._id.toString()
       }
-    })
+    }
+    )
 
     console.log(`[Notification Success]: Sent to delica${lead.branch} (${tokens.length} tokens)`)
   } catch (error) {
@@ -62,17 +63,24 @@ async function sendLeadNotification(lead) {
 async function create(req, res) {
 
   try {
-    const lead = new LeadModel(buildLeadPayload(req.body))
+    const payload = buildLeadPayload(req.body)
+
+    if (payload.phone) {
+      const existingLead = await LeadModel.findOne({ phone: payload.phone })
+      if (existingLead) {
+        return res.status(409).json({
+          message: 'Lead with this phone number already exists'
+        })
+      }
+    }
+
+    const lead = new LeadModel(payload)
     const data = await lead.save()
     // send notif
     // console.log(data)
 
     // Fire the background notification task ONCE. Do not use setTimeout.
     sendLeadNotification(lead)
-
-    setTimeout(() => {
-      sendLeadNotification(lead)
-    }, 5000)
 
 
     return res.status(200).json({
@@ -197,7 +205,11 @@ async function notifyUser(req, res) {
     }
 
     const tokens = user.fcmTokens && user.fcmTokens.length ? user.fcmTokens : [user.fcmToken]
-    const result = await sendNotificationToTokens(tokens, { title, body, data })
+    const result = await sendNotificationToTokens(tokens, {
+      title: title,
+      body: body,
+      data: data
+    })
     return res.status(200).json({
       message: 'Ok',
       data: result
